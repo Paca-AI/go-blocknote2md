@@ -1,0 +1,10252 @@
+{
+ "empty_document": [],
+ "paragraph_simple": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "Hello world",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "paragraphs_consecutive": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "one",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "two",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "three",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "paragraph_empty_between": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "one",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": []
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "two",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "paragraph_only_empty": [
+  {
+   "type": "paragraph",
+   "content": []
+  }
+ ],
+ "style_bold": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a ",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "bold",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": " b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "style_italic": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a ",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "it",
+     "styles": {
+      "italic": true
+     }
+    },
+    {
+     "type": "text",
+     "text": " b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "style_strike": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a ",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "st",
+     "styles": {
+      "strike": true
+     }
+    },
+    {
+     "type": "text",
+     "text": " b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "style_code": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a ",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "co",
+     "styles": {
+      "code": true
+     }
+    },
+    {
+     "type": "text",
+     "text": " b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "style_code_with_backtick": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a ",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "x`y",
+     "styles": {
+      "code": true
+     }
+    },
+    {
+     "type": "text",
+     "text": " b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "style_underline": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a ",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "un",
+     "styles": {
+      "underline": true
+     }
+    },
+    {
+     "type": "text",
+     "text": " b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "style_bold_italic": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "bi",
+     "styles": {
+      "bold": true,
+      "italic": true
+     }
+    }
+   ]
+  }
+ ],
+ "style_all": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "all",
+     "styles": {
+      "bold": true,
+      "italic": true,
+      "strike": true,
+      "underline": true,
+      "code": true
+     }
+    }
+   ]
+  }
+ ],
+ "style_color": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "red",
+     "styles": {
+      "textColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": " and ",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "bg",
+     "styles": {
+      "backgroundColor": "blue"
+     }
+    }
+   ]
+  }
+ ],
+ "style_spaces_inside": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": " spaced ",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "y",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "style_leading_space": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": " lead",
+     "styles": {
+      "bold": true
+     }
+    }
+   ]
+  }
+ ],
+ "style_trailing_space": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "trail ",
+     "styles": {
+      "italic": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "next",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "style_adjacent_bold": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {
+      "italic": true
+     }
+    }
+   ]
+  }
+ ],
+ "style_nested_mixed": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {
+      "bold": true,
+      "italic": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {
+      "italic": true
+     }
+    }
+   ]
+  }
+ ],
+ "link_simple": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "see ",
+     "styles": {}
+    },
+    {
+     "type": "link",
+     "href": "https://example.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "site",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": " now",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "link_styled": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "https://example.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "bold",
+       "styles": {
+        "bold": true
+       }
+      },
+      {
+       "type": "text",
+       "text": " plain",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "link_empty_href": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "",
+     "content": [
+      {
+       "type": "text",
+       "text": "nohref",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "link_special_url": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "https://e.com/a b(c)?q=1&r=2",
+     "content": [
+      {
+       "type": "text",
+       "text": "u",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "special_chars": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a*b_c [x] <t> `k` \\ # ! | ~ & &amp;",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "leading_hash": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "# not a heading",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "leading_dash": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "- not a list",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "leading_number": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "1. not a list",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "leading_gt": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "> not a quote",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "unicode": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "héllo 日本語 🎉",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "hard_break": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "line1\nline2",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "hard_break_styled": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a\nb",
+     "styles": {
+      "bold": true
+     }
+    }
+   ]
+  }
+ ],
+ "whitespace_runs": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a   b    c",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "whitespace_edges": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "  padded  ",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_1": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 1
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "H1",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_2": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 2
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "H2",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_3": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 3
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "H3",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_4": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 4
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "H4",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_5": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 5
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "H5",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_6": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 6
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "H6",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_styled": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 2
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "a ",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_empty": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 1
+   },
+   "content": []
+  }
+ ],
+ "heading_with_children": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 1
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "Parent",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "child para",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "heading_toggleable": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 1,
+    "isToggleable": true
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "Tog",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "inside",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "bullet_flat": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "bullet_single": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "only",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "bullet_nested": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "a1",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "a2",
+       "styles": {}
+      }
+     ],
+     "children": [
+      {
+       "type": "bulletListItem",
+       "content": [
+        {
+         "type": "text",
+         "text": "a2x",
+         "styles": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "bullet_styled": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a ",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "bullet_empty": [
+  {
+   "type": "bulletListItem",
+   "content": []
+  }
+ ],
+ "bullet_hard_break": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "l1\nl2",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "bullet_with_paragraph_child": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "para under",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "numbered_flat": [
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "numbered_nested": [
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "numberedListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "a1",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "numberedListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "a2",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "numbered_start": [
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "props": {
+    "start": 5
+   }
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "numbered_ten_plus": [
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "1",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "2",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "3",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "4",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "5",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "6",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "7",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "8",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "9",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "10",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "11",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "12",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "numbered_nested_in_bullet": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "numberedListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "n1",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "numberedListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "n2",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "bullet_nested_in_numbered": [
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "b1",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "lists_bullet_then_numbered": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "lists_numbered_then_bullet": [
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "lists_split_by_paragraph": [
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "break",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "list_then_paragraph": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "after",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "paragraph_then_list": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "before",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "check_flat": [
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "done",
+     "styles": {}
+    }
+   ],
+   "props": {
+    "checked": true
+   }
+  },
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "todo",
+     "styles": {}
+    }
+   ],
+   "props": {
+    "checked": false
+   }
+  }
+ ],
+ "check_default_unchecked": [
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "check_nested": [
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "props": {
+    "checked": true
+   },
+   "children": [
+    {
+     "type": "checkListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "a1",
+       "styles": {}
+      }
+     ],
+     "props": {
+      "checked": false
+     }
+    }
+   ]
+  }
+ ],
+ "check_then_bullet": [
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "check_styled": [
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {
+      "bold": true
+     }
+    }
+   ],
+   "props": {
+    "checked": true
+   }
+  }
+ ],
+ "check_empty": [
+  {
+   "type": "checkListItem",
+   "content": [],
+   "props": {
+    "checked": true
+   }
+  }
+ ],
+ "toggle_list": [
+  {
+   "type": "toggleListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "tog",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "hidden",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "toggle_list_flat": [
+  {
+   "type": "toggleListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "toggleListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "quote_simple": [
+  {
+   "type": "quote",
+   "content": [
+    {
+     "type": "text",
+     "text": "wise",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "quote_hard_break": [
+  {
+   "type": "quote",
+   "content": [
+    {
+     "type": "text",
+     "text": "l1\nl2",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "quote_styled": [
+  {
+   "type": "quote",
+   "content": [
+    {
+     "type": "text",
+     "text": "a ",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "quote_with_children": [
+  {
+   "type": "quote",
+   "content": [
+    {
+     "type": "text",
+     "text": "q",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "child",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quote_consecutive": [
+  {
+   "type": "quote",
+   "content": [
+    {
+     "type": "text",
+     "text": "q1",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "content": [
+    {
+     "type": "text",
+     "text": "q2",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "quote_empty": [
+  {
+   "type": "quote"
+  }
+ ],
+ "code_lang": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "go"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "fmt.Println(1)",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_nolang": [
+  {
+   "type": "codeBlock",
+   "props": {},
+   "content": [
+    {
+     "type": "text",
+     "text": "plain",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_multiline": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "text"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "a\nb\n\nc",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_trailing_newline": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "text"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "a\n",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_backticks": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "text"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "a ``` b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_indent": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "text"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "  indented\n    more",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_empty": [
+  {
+   "type": "codeBlock",
+   "props": {},
+   "content": []
+  }
+ ],
+ "code_special": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "html"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "<div>&amp; *x* _y_",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_between_paragraphs": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "before",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "js"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "after",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "divider": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "table_basic": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "H1",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "H2",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_header_row": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "H1",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "H2",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   },
+   "props": {
+    "headerRows": 1
+   }
+  }
+ ],
+ "table_header_col": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "H1",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "H2",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   },
+   "props": {
+    "headerCols": 1
+   }
+  }
+ ],
+ "table_pipe": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a|b",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_styled": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {
+          "bold": true
+         }
+        }
+       ],
+       [
+        {
+         "type": "link",
+         "href": "https://x.y",
+         "content": [
+          {
+           "type": "text",
+           "text": "l",
+           "styles": {}
+          }
+         ]
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_empty_cell": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       []
+      ]
+     },
+     {
+      "cells": [
+       [],
+       [
+        {
+         "type": "text",
+         "text": "d",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_uneven": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "d",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_single_cell": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "only",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_hard_break": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "l1\nl2",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "x",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_between": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "before",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "after",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "image_full": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/x.png",
+    "caption": "A pic",
+    "name": "x.png"
+   }
+  }
+ ],
+ "image_no_caption": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/x.png",
+    "name": "x.png"
+   }
+  }
+ ],
+ "image_no_name": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/x.png",
+    "caption": "cap"
+   }
+  }
+ ],
+ "image_only_url": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/x.png"
+   }
+  }
+ ],
+ "image_no_url": [
+  {
+   "type": "image",
+   "props": {
+    "caption": "cap",
+    "name": "n"
+   }
+  }
+ ],
+ "image_empty": [
+  {
+   "type": "image"
+  }
+ ],
+ "image_special_url": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://i/a b(1).png",
+    "name": "a b.png"
+   }
+  }
+ ],
+ "file_full": [
+  {
+   "type": "file",
+   "props": {
+    "url": "https://f/y.pdf",
+    "name": "y.pdf",
+    "caption": "the cap"
+   }
+  }
+ ],
+ "file_no_name": [
+  {
+   "type": "file",
+   "props": {
+    "url": "https://f/y.pdf"
+   }
+  }
+ ],
+ "file_no_url": [
+  {
+   "type": "file",
+   "props": {
+    "name": "y.pdf"
+   }
+  }
+ ],
+ "file_empty": [
+  {
+   "type": "file"
+  }
+ ],
+ "video_full": [
+  {
+   "type": "video",
+   "props": {
+    "url": "https://v/a.mp4",
+    "name": "a.mp4",
+    "caption": "vc"
+   }
+  }
+ ],
+ "video_only_url": [
+  {
+   "type": "video",
+   "props": {
+    "url": "https://v/a.mp4"
+   }
+  }
+ ],
+ "audio_full": [
+  {
+   "type": "audio",
+   "props": {
+    "url": "https://a/a.mp3",
+    "name": "a.mp3",
+    "caption": "ac"
+   }
+  }
+ ],
+ "audio_only_url": [
+  {
+   "type": "audio",
+   "props": {
+    "url": "https://a/a.mp3"
+   }
+  }
+ ],
+ "mention_team": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "teamMention",
+     "props": {
+      "id": "1",
+      "name": "Ada"
+     }
+    },
+    {
+     "type": "text",
+     "text": " hi",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "mention_task": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "see ",
+     "styles": {}
+    },
+    {
+     "type": "taskReference",
+     "props": {
+      "id": "2",
+      "title": "Fix login",
+      "status": "open"
+     }
+    }
+   ]
+  }
+ ],
+ "mention_doc": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "see ",
+     "styles": {}
+    },
+    {
+     "type": "docReference",
+     "props": {
+      "id": "3",
+      "title": "Guide"
+     }
+    }
+   ]
+  }
+ ],
+ "mention_defaults": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "teamMention",
+     "props": {}
+    }
+   ]
+  }
+ ],
+ "custom_mermaid": [
+  {
+   "type": "mermaid",
+   "props": {
+    "code": "graph TD; A-->B"
+   }
+  }
+ ],
+ "custom_mermaid_empty": [
+  {
+   "type": "mermaid"
+  }
+ ],
+ "custom_annotation_card": [
+  {
+   "type": "annotationCard",
+   "props": {
+    "id": "a",
+    "projectId": "p",
+    "environmentId": "e",
+    "portForwardId": "f"
+   }
+  }
+ ],
+ "paragraph_with_children": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "parent",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "child",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "child2",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "paragraph_children_nested": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "b",
+       "styles": {}
+      }
+     ],
+     "children": [
+      {
+       "type": "paragraph",
+       "content": [
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "mixed_document": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 1
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "Title",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "intro ",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "bold",
+     "styles": {
+      "bold": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "y",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "py"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "code",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "content": [
+    {
+     "type": "text",
+     "text": "q",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "divider"
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "end",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "props_alignment_color": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "aligned",
+     "styles": {}
+    }
+   ],
+   "props": {
+    "textAlignment": "center",
+    "textColor": "red",
+    "backgroundColor": "blue"
+   }
+  }
+ ],
+ "unknown_block": [
+  {
+   "type": "somethingNew",
+   "content": [
+    {
+     "type": "text",
+     "text": "kept?",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "link_style_bold": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "x ",
+     "styles": {}
+    },
+    {
+     "type": "link",
+     "href": "https://e.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "lnk",
+       "styles": {
+        "bold": true
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": " y",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "link_style_italic": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "x ",
+     "styles": {}
+    },
+    {
+     "type": "link",
+     "href": "https://e.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "lnk",
+       "styles": {
+        "italic": true
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": " y",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "link_style_strike": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "x ",
+     "styles": {}
+    },
+    {
+     "type": "link",
+     "href": "https://e.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "lnk",
+       "styles": {
+        "strike": true
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": " y",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "link_style_code": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "x ",
+     "styles": {}
+    },
+    {
+     "type": "link",
+     "href": "https://e.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "lnk",
+       "styles": {
+        "code": true
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": " y",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "link_style_underline": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "x ",
+     "styles": {}
+    },
+    {
+     "type": "link",
+     "href": "https://e.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "lnk",
+       "styles": {
+        "underline": true
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": " y",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "link_style_color": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "https://e.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "lnk",
+       "styles": {
+        "textColor": "red"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "link_style_bold_italic": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "https://e.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "lnk",
+       "styles": {
+        "bold": true,
+        "italic": true
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "link_two_nodes": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "https://e.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "a",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "b",
+       "styles": {
+        "bold": true
+       }
+      },
+      {
+       "type": "text",
+       "text": "c",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "link_autolink_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "https://e.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "https://e.com",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "link_mailto": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "mailto:a@b.co",
+     "content": [
+      {
+       "type": "text",
+       "text": "a@b.co",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "link_title_chars": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "https://e.com/\"q\"",
+     "content": [
+      {
+       "type": "text",
+       "text": "q",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "link_paren_url": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "https://e.com/a_(b)",
+     "content": [
+      {
+       "type": "text",
+       "text": "p",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "link_empty_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "https://e.com",
+     "content": []
+    }
+   ]
+  }
+ ],
+ "link_unicode_url": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "https://e.com/日本",
+     "content": [
+      {
+       "type": "text",
+       "text": "u",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "link_hash_url": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "#frag",
+     "content": [
+      {
+       "type": "text",
+       "text": "f",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "text_empty_node": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "content_plain_string": [
+  {
+   "type": "paragraph",
+   "content": "just a string"
+  }
+ ],
+ "nbsp": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a b  c",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "nbsp_edges": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": " lead and trail ",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "tabs": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a\tb\t\tc",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "crlf": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a\r\nb",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "cr_only": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a\rb",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "line_sep": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "abc",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "zero_width": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a​b﻿c",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "hard_break_leading": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "\nlead",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "hard_break_trailing": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "trail\n",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "hard_break_double": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a\n\nb",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "hard_break_only": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "\n",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "hard_break_space_around": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a \n b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "bold_punct_after_letter": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "!",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "bold_letter_after_letter": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "bold_punct_inside": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "x ",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "(par)",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": " y",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "bold_space_before": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": " b",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "y",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "italic_letter_edges": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {
+      "italic": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "italic_space_inside": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": " i ",
+     "styles": {
+      "italic": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "y",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "strike_edges": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": " s ",
+     "styles": {
+      "strike": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "bold_emoji_edge": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "🎉",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": " b ",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "🎉",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "bold_at_start_end": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": " b ",
+     "styles": {
+      "bold": true
+     }
+    }
+   ]
+  }
+ ],
+ "bold_then_italic_adjacent": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "i",
+     "styles": {
+      "italic": true
+     }
+    }
+   ]
+  }
+ ],
+ "bold_italic_split": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {
+      "bold": true,
+      "italic": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {
+      "italic": true
+     }
+    }
+   ]
+  }
+ ],
+ "code_adjacent_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {
+      "code": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_with_spaces": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": " c ",
+     "styles": {
+      "code": true
+     }
+    }
+   ]
+  }
+ ],
+ "code_only_spaces": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "   ",
+     "styles": {
+      "code": true
+     }
+    }
+   ]
+  }
+ ],
+ "code_backtick_edges": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "`a`",
+     "styles": {
+      "code": true
+     }
+    }
+   ]
+  }
+ ],
+ "code_double_backtick": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a``b",
+     "styles": {
+      "code": true
+     }
+    }
+   ]
+  }
+ ],
+ "code_newline": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a\nb",
+     "styles": {
+      "code": true
+     }
+    }
+   ]
+  }
+ ],
+ "code_bold": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "cb",
+     "styles": {
+      "code": true,
+      "bold": true
+     }
+    }
+   ]
+  }
+ ],
+ "strike_code": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "sc",
+     "styles": {
+      "strike": true,
+      "code": true
+     }
+    }
+   ]
+  }
+ ],
+ "heading_level_0": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 0
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "H",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_level_7": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 7
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "H",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_level_8": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 8
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "H",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_level_-1": [
+  {
+   "type": "heading",
+   "props": {
+    "level": -1
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "H",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_hard_break": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 2
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "a\nb",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_leading_space_bold": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 2
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": " a",
+     "styles": {
+      "bold": true
+     }
+    }
+   ]
+  }
+ ],
+ "heading_trailing_hash": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 2
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "title #",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_only_spaces": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 2
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "   ",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_empty_lang": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": ""
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_lang_space": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "c plus"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_lang_special": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "c++"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_lang_backtick": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "a`b"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_lang_quote": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "a\"b"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_leading_newline": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "text"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "\nx",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_tab": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "text"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "a\tb",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_crlf": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "text"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "a\r\nb",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_only_newlines": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "text"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "\n\n",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_hash_lines": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "text"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "# not heading\n- not list",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_four_backticks": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "text"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "````",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_tilde": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "text"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "~~~",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "code_in_list_child": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "codeBlock",
+     "props": {
+      "language": "js"
+     },
+     "content": [
+      {
+       "type": "text",
+       "text": "x",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quote_in_list_child": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "quote",
+     "content": [
+      {
+       "type": "text",
+       "text": "q",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "heading_in_list_child": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "heading",
+     "props": {
+      "level": 2
+     },
+     "content": [
+      {
+       "type": "text",
+       "text": "h",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "table_in_list_child": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "table",
+     "content": {
+      "type": "tableContent",
+      "rows": [
+       {
+        "cells": [
+         [
+          {
+           "type": "text",
+           "text": "c",
+           "styles": {}
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "divider_in_list_child": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "divider"
+    }
+   ]
+  }
+ ],
+ "image_no_preview": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/x.png",
+    "name": "x.png",
+    "showPreview": false
+   }
+  }
+ ],
+ "image_no_preview_caption": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/x.png",
+    "name": "x.png",
+    "caption": "cap",
+    "showPreview": false
+   }
+  }
+ ],
+ "image_no_preview_no_name": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/x.png",
+    "showPreview": false
+   }
+  }
+ ],
+ "image_preview_width": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/x.png",
+    "name": "x.png",
+    "previewWidth": 300
+   }
+  }
+ ],
+ "image_alt_brackets": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/x.png",
+    "name": "a[b]c"
+   }
+  }
+ ],
+ "image_alt_special": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/x.png",
+    "name": "a*b_c`d"
+   }
+  }
+ ],
+ "image_paren_url": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/a_(1).png",
+    "name": "n"
+   }
+  }
+ ],
+ "image_unicode": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/日本.png",
+    "name": "日本"
+   }
+  }
+ ],
+ "image_caption_only_text": [
+  {
+   "type": "image",
+   "props": {
+    "url": "https://img/x.png",
+    "caption": "*cap*"
+   }
+  }
+ ],
+ "video_no_preview": [
+  {
+   "type": "video",
+   "props": {
+    "url": "https://v/a.mp4",
+    "name": "a.mp4",
+    "showPreview": false
+   }
+  }
+ ],
+ "video_no_preview_caption": [
+  {
+   "type": "video",
+   "props": {
+    "url": "https://v/a.mp4",
+    "name": "a.mp4",
+    "caption": "c",
+    "showPreview": false
+   }
+  }
+ ],
+ "video_empty": [
+  {
+   "type": "video"
+  }
+ ],
+ "video_preview_width": [
+  {
+   "type": "video",
+   "props": {
+    "url": "https://v/a.mp4",
+    "previewWidth": 200
+   }
+  }
+ ],
+ "audio_no_preview": [
+  {
+   "type": "audio",
+   "props": {
+    "url": "https://a/a.mp3",
+    "name": "a.mp3",
+    "showPreview": false
+   }
+  }
+ ],
+ "audio_empty": [
+  {
+   "type": "audio"
+  }
+ ],
+ "file_caption_only": [
+  {
+   "type": "file",
+   "props": {
+    "url": "https://f/y.pdf",
+    "caption": "cap"
+   }
+  }
+ ],
+ "file_name_special": [
+  {
+   "type": "file",
+   "props": {
+    "url": "https://f/y.pdf",
+    "name": "a[b]*c_"
+   }
+  }
+ ],
+ "file_url_space": [
+  {
+   "type": "file",
+   "props": {
+    "url": "https://f/a b.pdf",
+    "name": "a b.pdf"
+   }
+  }
+ ],
+ "table_colspan": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       {
+        "type": "tableCell",
+        "props": {
+         "colspan": 2
+        },
+        "content": [
+         {
+          "type": "text",
+          "text": "wide",
+          "styles": {}
+         }
+        ]
+       },
+       [
+        {
+         "type": "text",
+         "text": "x",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_rowspan": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       {
+        "type": "tableCell",
+        "props": {
+         "rowspan": 2
+        },
+        "content": [
+         {
+          "type": "text",
+          "text": "tall",
+          "styles": {}
+         }
+        ]
+       },
+       [
+        {
+         "type": "text",
+         "text": "x",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "y",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_cell_object": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       {
+        "type": "tableCell",
+        "content": [
+         {
+          "type": "text",
+          "text": "a",
+          "styles": {}
+         }
+        ]
+       },
+       {
+        "type": "tableCell",
+        "content": [
+         {
+          "type": "text",
+          "text": "b",
+          "styles": {}
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_wide_chars": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "日本語",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "x",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "🎉🎉",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_code_pipe": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a|b",
+         "styles": {
+          "code": true
+         }
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "x",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_leading_colon": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": ":-",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "-:",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_cell_multi_inline": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a ",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {
+          "bold": true
+         }
+        },
+        {
+         "type": "text",
+         "text": " ",
+         "styles": {}
+        },
+        {
+         "type": "link",
+         "href": "https://x.y",
+         "content": [
+          {
+           "type": "text",
+           "text": "l",
+           "styles": {}
+          }
+         ]
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "z",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_rows_empty": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": []
+   }
+  }
+ ],
+ "table_two_tables": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "quote_then_list": [
+  {
+   "type": "quote",
+   "content": [
+    {
+     "type": "text",
+     "text": "q",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "list_then_quote": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "content": [
+    {
+     "type": "text",
+     "text": "q",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "list_then_code": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "js"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "list_then_table": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "list_then_divider": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "divider"
+  }
+ ],
+ "divider_then_list": [
+  {
+   "type": "divider"
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "divider_first_in_bullet_sibling": [
+  {
+   "type": "divider"
+  },
+  {
+   "type": "divider"
+  }
+ ],
+ "numbered_start_zero": [
+  {
+   "type": "numberedListItem",
+   "props": {
+    "start": 0
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "numbered_start_one": [
+  {
+   "type": "numberedListItem",
+   "props": {
+    "start": 1
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "numbered_start_mid_ignored": [
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "props": {
+    "start": 9
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "numbered_start_big": [
+  {
+   "type": "numberedListItem",
+   "props": {
+    "start": 98
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "numbered_nested_start": [
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "numberedListItem",
+     "props": {
+      "start": 3
+     },
+     "content": [
+      {
+       "type": "text",
+       "text": "x",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "numberedListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "y",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "bullet_children_list_then_para": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "n",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "para",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "bullet_children_para_then_list": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "para",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "n",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "bullet_children_two_lists_different": [
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "n",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "numberedListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "m",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "check_children_para": [
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "props": {
+    "checked": true
+   },
+   "children": [
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "para",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "check_children_check_and_bullet": [
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "b",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "check_mixed_with_bullet_paragraph": [
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "check_hard_break": [
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "l1\nl2",
+     "styles": {}
+    }
+   ],
+   "props": {
+    "checked": true
+   }
+  }
+ ],
+ "check_leading_space": [
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": " lead",
+     "styles": {}
+    }
+   ],
+   "props": {
+    "checked": false
+   }
+  }
+ ],
+ "check_link_first": [
+  {
+   "type": "checkListItem",
+   "content": [
+    {
+     "type": "link",
+     "href": "https://e.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "l",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "toggle_nested_list": [
+  {
+   "type": "toggleListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "t",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "n",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "para",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "toggle_with_numbered": [
+  {
+   "type": "toggleListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "t",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "n",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "heading_toggle_nested": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 2,
+    "isToggleable": true
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "t",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "n",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "p",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "heading_toggle_empty_children": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 2,
+    "isToggleable": true
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "t",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "quote_children_list": [
+  {
+   "type": "quote",
+   "content": [
+    {
+     "type": "text",
+     "text": "q",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "n",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "paragraph_children_list": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "p",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "n",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "deep_children_mixed": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "b",
+       "styles": {}
+      }
+     ],
+     "children": [
+      {
+       "type": "numberedListItem",
+       "content": [
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {}
+        }
+       ],
+       "children": [
+        {
+         "type": "paragraph",
+         "content": [
+          {
+           "type": "text",
+           "text": "d",
+           "styles": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "empty_children_array": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ],
+   "children": []
+  }
+ ],
+ "mention_only_paragraph": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "taskReference",
+     "props": {
+      "id": "1",
+      "title": "T"
+     }
+    }
+   ]
+  }
+ ],
+ "mention_special_chars": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "teamMention",
+     "props": {
+      "id": "1",
+      "name": "a*b_c [d] <e>"
+     }
+    }
+   ]
+  }
+ ],
+ "mention_spaces": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    },
+    {
+     "type": "docReference",
+     "props": {
+      "id": "1",
+      "title": "  spaced  title  "
+     }
+    },
+    {
+     "type": "text",
+     "text": "y",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "mention_empty_name": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    },
+    {
+     "type": "teamMention",
+     "props": {
+      "id": "1",
+      "name": ""
+     }
+    },
+    {
+     "type": "text",
+     "text": "y",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "mention_in_bold": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "teamMention",
+     "props": {
+      "id": "1",
+      "name": "Ada"
+     }
+    }
+   ]
+  }
+ ],
+ "mention_in_heading": [
+  {
+   "type": "heading",
+   "props": {
+    "level": 2
+   },
+   "content": [
+    {
+     "type": "teamMention",
+     "props": {
+      "id": "1",
+      "name": "Ada"
+     }
+    }
+   ]
+  }
+ ],
+ "mention_in_table": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "teamMention",
+         "props": {
+          "id": "1",
+          "name": "Ada"
+         }
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "annotation_card_between": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "annotationCard",
+   "props": {
+    "id": "a",
+    "projectId": "p",
+    "environmentId": "e",
+    "portForwardId": "f"
+   }
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "annotation_card_defaults": [
+  {
+   "type": "annotationCard"
+  }
+ ],
+ "mermaid_multiline": [
+  {
+   "type": "mermaid",
+   "props": {
+    "code": "graph TD\n  A-->B\n  B-->C\n"
+   }
+  }
+ ],
+ "mermaid_backticks": [
+  {
+   "type": "mermaid",
+   "props": {
+    "code": "a ``` b"
+   }
+  }
+ ],
+ "mermaid_between": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "mermaid",
+   "props": {
+    "code": "x"
+   }
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "mixed_lists_and_paragraphs": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "intro",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "pp",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "c",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "outro",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "long_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word ",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "only_whitespace_paragraph": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "   ",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "only_whitespace_bold": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "   ",
+     "styles": {
+      "bold": true
+     }
+    }
+   ]
+  }
+ ],
+ "bold_empty_between": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": " ",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "entity_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "&lt; &gt; &amp; &#x41; &nbsp;",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "angle_brackets_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "<script>alert(1)</script> <b>x</b>",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "backslash_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a\\b \\* \\_ \\\\",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "tilde_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "~~not strike~~ ~one~",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "pipe_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "a | b",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "url_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "visit https://example.com/path?q=1&b=2 now",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "email_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "mail me@example.com ok",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "image_syntax_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "![alt](http://x.png) [t](http://y)",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "html_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "<!-- comment --> <br/>",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "setext_like_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "title",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "===",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "list_marker_like_text": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "* star",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "+ plus",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "2) paren",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "emoji": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "🎉🎉 party 👍🏽",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "rtl": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "שלום עולם",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "combining": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "é à",
+     "styles": {}
+    }
+   ]
+  }
+ ],
+ "table_headerRows_content": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "headerRows": 1,
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "H1",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "H2",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "d",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_headerRows_2": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "headerRows": 2,
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "H1",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "H2",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "d",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_headerCols_content": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "headerCols": 1,
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "H1",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "H2",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "d",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_headerRows_cols": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "headerRows": 1,
+    "headerCols": 1,
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "H1",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "H2",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "d",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_header_only": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "headerRows": 1,
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "H1",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "H2",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_header_colspan": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "headerRows": 1,
+    "rows": [
+     {
+      "cells": [
+       {
+        "type": "tableCell",
+        "props": {
+         "colspan": 2
+        },
+        "content": [
+         {
+          "type": "text",
+          "text": "wide",
+          "styles": {}
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_string_cells": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       "plain",
+       "text"
+      ]
+     },
+     {
+      "cells": [
+       "x",
+       null
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_cell_adjacent_bold": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {
+          "bold": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {
+          "bold": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {
+          "italic": true
+         }
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_cell_link_two": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "link",
+         "href": "https://x.y",
+         "content": [
+          {
+           "type": "text",
+           "text": "a",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": "b",
+           "styles": {
+            "bold": true
+           }
+          },
+          {
+           "type": "text",
+           "text": "c",
+           "styles": {}
+          }
+         ]
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_cell_nested_marks": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {
+          "bold": true,
+          "italic": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {
+          "bold": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {
+          "italic": true,
+          "strike": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "d",
+         "styles": {
+          "code": true
+         }
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_cell_hard_break_styled": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a\nb",
+         "styles": {
+          "bold": true
+         }
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_cell_spaces_bold": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "x",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": " b ",
+         "styles": {
+          "bold": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "y",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_cell_color_then_bold": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {
+          "textColor": "red",
+          "bold": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {
+          "bold": true
+         }
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_cell_mention_text": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "hi ",
+         "styles": {}
+        },
+        {
+         "type": "teamMention",
+         "props": {
+          "id": "1",
+          "name": "Ada"
+         }
+        },
+        {
+         "type": "text",
+         "text": "!",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_merge_same_marks": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": "c",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "table_columnwidths": [
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "columnWidths": [
+     100,
+     null
+    ],
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "a",
+         "styles": {}
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "b",
+         "styles": {}
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "fuzz_regression_1": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "go"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "codeBlock",
+     "props": {},
+     "content": [
+      {
+       "type": "text",
+       "text": "# h\n- l",
+       "styles": {}
+      }
+     ],
+     "children": [
+      {
+       "type": "paragraph",
+       "content": [
+        {
+         "type": "text",
+         "text": "  @\t~",
+         "styles": {
+          "italic": true,
+          "textColor": "red"
+         }
+        },
+        {
+         "type": "text",
+         "text": "\\ ~ _  ",
+         "styles": {
+          "bold": true,
+          "italic": true,
+          "strike": true,
+          "backgroundColor": "red"
+         }
+        },
+        {
+         "type": "link",
+         "href": "",
+         "content": []
+        }
+       ]
+      },
+      {
+       "type": "paragraph",
+       "content": [
+        {
+         "type": "text",
+         "text": "😀 1.\t!\t",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": "& \n -\t1.",
+         "styles": {
+          "textColor": "red",
+          "backgroundColor": "red"
+         }
+        },
+        {
+         "type": "link",
+         "href": "#f",
+         "content": [
+          {
+           "type": "text",
+           "text": "é\n< '",
+           "styles": {
+            "bold": true
+           }
+          },
+          {
+           "type": "text",
+           "text": "<\t\"  \t ",
+           "styles": {}
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": " \n ",
+         "styles": {
+          "underline": true,
+          "backgroundColor": "red"
+         }
+        },
+        {
+         "type": "link",
+         "href": "",
+         "content": [
+          {
+           "type": "text",
+           "text": "",
+           "styles": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "& | 1) ![i](u) ",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {
+        "strike": true,
+        "code": true
+       }
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {
+        "strike": true
+       }
+      }
+     ],
+     "children": [
+      {
+       "type": "checkListItem",
+       "props": {
+        "checked": true
+       },
+       "content": []
+      }
+     ]
+    },
+    {
+     "type": "codeBlock",
+     "props": {
+      "language": "a b"
+     },
+     "content": [
+      {
+       "type": "text",
+       "text": "# h\n- l",
+       "styles": {}
+      }
+     ],
+     "children": [
+      {
+       "type": "toggleListItem",
+       "content": [
+        {
+         "type": "link",
+         "href": "",
+         "content": [
+          {
+           "type": "text",
+           "text": "\né \n a",
+           "styles": {
+            "strike": true
+           }
+          },
+          {
+           "type": "text",
+           "text": " \t ",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": "\t",
+           "styles": {}
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "table",
+       "content": {
+        "type": "tableContent",
+        "rows": [
+         {
+          "cells": [
+           [
+            {
+             "type": "text",
+             "text": "",
+             "styles": {
+              "backgroundColor": "red"
+             }
+            },
+            {
+             "type": "docReference",
+             "props": {
+              "id": "1",
+              "title": "x [y]"
+             }
+            }
+           ],
+           [
+            {
+             "type": "text",
+             "text": "  \t % ",
+             "styles": {
+              "bold": true
+             }
+            },
+            {
+             "type": "text",
+             "text": "  ",
+             "styles": {
+              "textColor": "red"
+             }
+            },
+            {
+             "type": "text",
+             "text": "\" a\n** \n   ",
+             "styles": {
+              "bold": true,
+              "italic": true,
+              "code": true
+             }
+            }
+           ]
+          ]
+         },
+         {
+          "cells": [
+           [
+            {
+             "type": "text",
+             "text": "www.x.com ",
+             "styles": {
+              "bold": true
+             }
+            },
+            {
+             "type": "text",
+             "text": "' ?  _  ñ",
+             "styles": {}
+            }
+           ],
+           {
+            "type": "tableCell",
+            "props": {
+             "colspan": 3
+            },
+            "content": []
+           }
+          ]
+         },
+         {
+          "cells": [
+           [
+            {
+             "type": "link",
+             "href": "mailto:a@b.co",
+             "content": [
+              {
+               "type": "text",
+               "text": ". \t https://e.com/a_b?c=1&d=2",
+               "styles": {}
+              }
+             ]
+            },
+            {
+             "type": "link",
+             "href": "https://e.com/a b",
+             "content": [
+              {
+               "type": "text",
+               "text": "_ é bc",
+               "styles": {
+                "textColor": "red"
+               }
+              }
+             ]
+            },
+            {
+             "type": "text",
+             "text": "<  & $ \t 😀",
+             "styles": {}
+            }
+           ],
+           [
+            {
+             "type": "text",
+             "text": "a.b  \t",
+             "styles": {
+              "italic": true,
+              "strike": true
+             }
+            }
+           ],
+           [
+            {
+             "type": "link",
+             "href": "#f",
+             "content": [
+              {
+               "type": "text",
+               "text": "^ \n 2. \t ",
+               "styles": {
+                "bold": true,
+                "strike": true
+               }
+              }
+             ]
+            }
+           ]
+          ]
+         }
+        ],
+        "headerCols": 1
+       }
+      },
+      {
+       "type": "quote",
+       "content": [
+        {
+         "type": "text",
+         "text": "www.x.com  | \n _",
+         "styles": {}
+        },
+        {
+         "type": "link",
+         "href": "https://e.com/x?y=1&z=2",
+         "content": []
+        },
+        {
+         "type": "text",
+         "text": "+ &",
+         "styles": {
+          "strike": true,
+          "underline": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "\n",
+         "styles": {
+          "bold": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "1. (p) \n {} \n \"",
+         "styles": {}
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "props": {
+    "level": 2
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "<\n`",
+     "styles": {
+      "strike": true,
+      "code": true,
+      "textColor": "red",
+      "backgroundColor": "red"
+     }
+    },
+    {
+     "type": "link",
+     "href": "https://e.com/\"q\"",
+     "content": [
+      {
+       "type": "text",
+       "text": "| \n 2.",
+       "styles": {
+        "bold": true,
+        "italic": true,
+        "underline": true
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "| $  ' \n ",
+     "styles": {
+      "strike": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "ñ",
+     "styles": {
+      "italic": true,
+      "backgroundColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "+ $\n_ hello ",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "js"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "toggleListItem",
+   "content": [
+    {
+     "type": "teamMention",
+     "props": {
+      "id": "1",
+      "name": "日本"
+     }
+    },
+    {
+     "type": "text",
+     "text": "a.b > s:/ ñ",
+     "styles": {
+      "backgroundColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "\tx1\t* www.x.com 😀 ",
+     "styles": {
+      "backgroundColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "foo_bar ! % ^\t",
+     "styles": {
+      "backgroundColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "Zed ñ",
+     "styles": {
+      "code": true
+     }
+    }
+   ],
+   "children": [
+    {
+     "type": "heading",
+     "props": {
+      "level": 3
+     },
+     "content": []
+    },
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "link",
+       "href": "https://e.com/a b",
+       "content": [
+        {
+         "type": "text",
+         "text": "",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": "&amp; #   ",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": "^  \n&",
+         "styles": {
+          "strike": true
+         }
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "text": "\t",
+       "styles": {
+        "code": true
+       }
+      },
+      {
+       "type": "link",
+       "href": "https://e.com/a b",
+       "content": [
+        {
+         "type": "text",
+         "text": "+ /",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": "",
+         "styles": {
+          "code": true,
+          "backgroundColor": "red"
+         }
+        }
+       ]
+      },
+      {
+       "type": "link",
+       "href": "https://e.com/x?y=1&z=2",
+       "content": [
+        {
+         "type": "text",
+         "text": "😀 me@x.co",
+         "styles": {
+          "bold": true,
+          "italic": true,
+          "underline": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "🎉 / \t 😀",
+         "styles": {
+          "textColor": "red"
+         }
+        }
+       ]
+      }
+     ],
+     "children": [
+      {
+       "type": "quote",
+       "content": [
+        {
+         "type": "text",
+         "text": "a.b \n + [x] {}",
+         "styles": {
+          "underline": true,
+          "textColor": "red"
+         }
+        },
+        {
+         "type": "link",
+         "href": "https://e.com/a_(b)",
+         "content": [
+          {
+           "type": "text",
+           "text": "|",
+           "styles": {
+            "code": true
+           }
+          },
+          {
+           "type": "text",
+           "text": " \t Zed",
+           "styles": {}
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "| é",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": " \t ",
+         "styles": {
+          "strike": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "é 😀  x1\t​\n",
+         "styles": {
+          "underline": true
+         }
+        }
+       ]
+      },
+      {
+       "type": "mermaid",
+       "props": {
+        "code": "a\nb\n"
+       }
+      },
+      {
+       "type": "paragraph",
+       "content": [
+        {
+         "type": "text",
+         "text": "(p) \n ñ",
+         "styles": {
+          "bold": true,
+          "underline": true
+         }
+        },
+        {
+         "type": "docReference",
+         "props": {
+          "id": "1",
+          "title": "日本"
+         }
+        },
+        {
+         "type": "text",
+         "text": "ñ me@x.co ",
+         "styles": {
+          "code": true
+         }
+        },
+        {
+         "type": "link",
+         "href": "https://e.com/\"q\"",
+         "content": [
+          {
+           "type": "text",
+           "text": "",
+           "styles": {
+            "bold": true,
+            "italic": true,
+            "backgroundColor": "red"
+           }
+          },
+          {
+           "type": "text",
+           "text": "__\n![i](u) :",
+           "styles": {
+            "textColor": "red"
+           }
+          },
+          {
+           "type": "text",
+           "text": "\t* 日本語",
+           "styles": {
+            "textColor": "red"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "props": {},
+   "content": [
+    {
+     "type": "text",
+     "text": "_ &amp; www.x.com",
+     "styles": {
+      "italic": true,
+      "strike": true
+     }
+    },
+    {
+     "type": "text",
+     "text": " ",
+     "styles": {
+      "textColor": "red",
+      "backgroundColor": "red"
+     }
+    },
+    {
+     "type": "link",
+     "href": "https://e.com/a_(b)",
+     "content": [
+      {
+       "type": "text",
+       "text": ":  +  ",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "mailto:a@b.co",
+     "content": [
+      {
+       "type": "text",
+       "text": "",
+       "styles": {
+        "code": true,
+        "underline": true,
+        "textColor": "red",
+        "backgroundColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {
+        "backgroundColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "docReference",
+     "props": {
+      "id": "1",
+      "title": ""
+     }
+    }
+   ]
+  }
+ ],
+ "fuzz_regression_3": [
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "c++"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "  i\n\tj\n",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "codeBlock",
+     "props": {
+      "language": "a b"
+     },
+     "content": [
+      {
+       "type": "text",
+       "text": "a\r\nb",
+       "styles": {}
+      }
+     ],
+     "children": [
+      {
+       "type": "checkListItem",
+       "props": {
+        "checked": false
+       },
+       "content": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "props": {
+    "start": 1
+   },
+   "content": [
+    {
+     "type": "link",
+     "href": "https://e.com/\"q\"",
+     "content": [
+      {
+       "type": "text",
+       "text": "",
+       "styles": {
+        "textColor": "red"
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "=",
+     "styles": {
+      "italic": true,
+      "textColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "",
+     "styles": {
+      "bold": true,
+      "textColor": "red"
+     }
+    },
+    {
+     "type": "link",
+     "href": "",
+     "content": [
+      {
+       "type": "text",
+       "text": "a 🎉 ",
+       "styles": {
+        "bold": true,
+        "strike": true,
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": ", \n Zed\n​",
+       "styles": {
+        "code": true
+       }
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {
+        "italic": true,
+        "textColor": "red"
+       }
+      }
+     ]
+    },
+    {
+     "type": "link",
+     "href": "https://e.com/x?y=1&z=2",
+     "content": [
+      {
+       "type": "text",
+       "text": "&",
+       "styles": {
+        "bold": true
+       }
+      },
+      {
+       "type": "text",
+       "text": "www.x.com ; ",
+       "styles": {
+        "textColor": "red"
+       }
+      }
+     ]
+    }
+   ],
+   "children": [
+    {
+     "type": "table",
+     "content": {
+      "type": "tableContent",
+      "rows": [
+       {
+        "cells": [
+         {
+          "type": "tableCell",
+          "props": {
+           "colspan": 3,
+           "rowspan": 1
+          },
+          "content": [
+           {
+            "type": "text",
+            "text": " \n ",
+            "styles": {
+             "textColor": "red"
+            }
+           }
+          ]
+         },
+         [
+          {
+           "type": "docReference",
+           "props": {
+            "id": "1",
+            "title": "<z>"
+           }
+          }
+         ],
+         [
+          {
+           "type": "text",
+           "text": "[x] . ",
+           "styles": {}
+          }
+         ],
+         [
+          {
+           "type": "text",
+           "text": ". foo_bar\t![i](u)  ",
+           "styles": {
+            "italic": true
+           }
+          }
+         ]
+        ]
+       },
+       {
+        "cells": [
+         []
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": ". \n ",
+       "styles": {
+        "backgroundColor": "red"
+       }
+      },
+      {
+       "type": "taskReference",
+       "props": {
+        "id": "1",
+        "title": "x [y]"
+       }
+      }
+     ],
+     "children": [
+      {
+       "type": "numberedListItem",
+       "props": {
+        "start": 1
+       },
+       "content": [
+        {
+         "type": "text",
+         "text": "a  , ~",
+         "styles": {}
+        },
+        {
+         "type": "link",
+         "href": "https://e.com/\"q\"",
+         "content": []
+        },
+        {
+         "type": "text",
+         "text": "_",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": "%  bc",
+         "styles": {
+          "underline": true
+         }
+        },
+        {
+         "type": "link",
+         "href": "https://e.com/\"q\"",
+         "content": []
+        }
+       ]
+      },
+      {
+       "type": "mermaid",
+       "props": {
+        "code": "graph TD;A-->B"
+       }
+      },
+      {
+       "type": "table",
+       "content": {
+        "type": "tableContent",
+        "rows": [
+         {
+          "cells": [
+           [
+            {
+             "type": "link",
+             "href": "mailto:a@b.co",
+             "content": []
+            },
+            {
+             "type": "text",
+             "text": "foo_bar 👍🏽 \t %",
+             "styles": {
+              "italic": true
+             }
+            },
+            {
+             "type": "text",
+             "text": " \tx1 ,  x1",
+             "styles": {
+              "strike": true
+             }
+            }
+           ]
+          ]
+         },
+         {
+          "cells": [
+           []
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "type": "quote",
+     "content": [
+      {
+       "type": "text",
+       "text": "wörd\na*b bc &amp; ",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "bc",
+       "styles": {
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "a",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "\n-",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "%\ts:/ s:/",
+     "styles": {
+      "strike": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "1)\n_  ? ",
+     "styles": {
+      "italic": true,
+      "backgroundColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "|",
+     "styles": {
+      "code": true,
+      "textColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "foo_bar &amp; hello ?",
+     "styles": {
+      "code": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "props": {
+    "url": "https://i.x/a b.png",
+    "name": "日本",
+    "caption": "cap",
+    "showPreview": false
+   },
+   "children": [
+    {
+     "type": "image",
+     "props": {
+      "url": "https://i.x/a.png"
+     }
+    },
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "\" ",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": " hello :\t1)",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {}
+      }
+     ],
+     "children": [
+      {
+       "type": "checkListItem",
+       "props": {
+        "checked": true
+       },
+       "content": "' \t &amp;"
+      },
+      {
+       "type": "bulletListItem",
+       "content": [
+        {
+         "type": "text",
+         "text": "<t>\n",
+         "styles": {
+          "code": true
+         }
+        },
+        {
+         "type": "link",
+         "href": "https://e.com/a b",
+         "content": [
+          {
+           "type": "text",
+           "text": "2. \t |",
+           "styles": {
+            "underline": true
+           }
+          },
+          {
+           "type": "text",
+           "text": "",
+           "styles": {
+            "textColor": "red",
+            "backgroundColor": "red"
+           }
+          },
+          {
+           "type": "text",
+           "text": "\n** [x] :",
+           "styles": {
+            "italic": true,
+            "strike": true
+           }
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "wörd hello & @ ",
+         "styles": {
+          "italic": true,
+          "textColor": "red"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "teamMention",
+     "props": {
+      "id": "1",
+      "name": ""
+     }
+    },
+    {
+     "type": "text",
+     "text": "bc x1 &  ",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": " ",
+     "styles": {
+      "strike": true,
+      "textColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "\tx1 \\ a*b\t&amp;",
+     "styles": {
+      "strike": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "toggleListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "a:b",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "😀 ' ",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "2. \t # ^\t",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "toggleListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "& **",
+       "styles": {
+        "bold": true,
+        "textColor": "red",
+        "backgroundColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {
+        "bold": true,
+        "backgroundColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "me@x.co #",
+       "styles": {}
+      },
+      {
+       "type": "link",
+       "href": "https://e.com/x?y=1&z=2",
+       "content": [
+        {
+         "type": "text",
+         "text": "a*b\t\\ \n é  \n ",
+         "styles": {
+          "bold": true,
+          "italic": true,
+          "code": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "!  \n ",
+         "styles": {
+          "code": true
+         }
+        }
+       ]
+      }
+     ],
+     "children": [
+      {
+       "type": "paragraph",
+       "content": [
+        {
+         "type": "text",
+         "text": "' ! \n ​ a*b",
+         "styles": {}
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "props": {
+      "level": 0
+     },
+     "content": [
+      {
+       "type": "taskReference",
+       "props": {
+        "id": "1",
+        "title": "<z>"
+       }
+      },
+      {
+       "type": "text",
+       "text": "@ www.x.com __",
+       "styles": {
+        "bold": true,
+        "strike": true,
+        "textColor": "red"
+       }
+      }
+     ],
+     "children": [
+      {
+       "type": "file",
+       "props": {
+        "url": "https://i.x/日本.png"
+       }
+      }
+     ]
+    },
+    {
+     "type": "quote",
+     "content": [
+      {
+       "type": "text",
+       "text": "\t?\n!",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": ", # < ^ ",
+       "styles": {
+        "code": true
+       }
+      },
+      {
+       "type": "docReference",
+       "props": {
+        "id": "1",
+        "title": "Ada"
+       }
+      },
+      {
+       "type": "text",
+       "text": "👍🏽  : a*b",
+       "styles": {
+        "bold": true,
+        "code": true,
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "hello  ",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "fuzz_regression_4": [
+  {
+   "type": "quote",
+   "content": [
+    {
+     "type": "text",
+     "text": "+ Zed x1 \t ",
+     "styles": {
+      "underline": true,
+      "backgroundColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "+ + ñ",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "props": {
+    "level": 3
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "&amp; \n &amp;\n<t>",
+     "styles": {
+      "strike": true
+     }
+    },
+    {
+     "type": "link",
+     "href": "https://e.com/a_(b)",
+     "content": [
+      {
+       "type": "text",
+       "text": "  ",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "link",
+     "href": "#f",
+     "content": [
+      {
+       "type": "text",
+       "text": "a*b \n ![i](u)",
+       "styles": {
+        "textColor": "red",
+        "backgroundColor": "red"
+       }
+      }
+     ]
+    },
+    {
+     "type": "teamMention",
+     "props": {
+      "id": "1",
+      "name": "Ada"
+     }
+    },
+    {
+     "type": "text",
+     "text": "__ + 1. >",
+     "styles": {
+      "italic": true
+     }
+    }
+   ],
+   "children": [
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "  \" + \n 😀",
+       "styles": {
+        "code": true
+       }
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "content": []
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "",
+     "styles": {
+      "italic": true,
+      "code": true
+     }
+    },
+    {
+     "type": "link",
+     "href": "https://e.com",
+     "content": [
+      {
+       "type": "text",
+       "text": "<",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "' ` 1) ",
+       "styles": {
+        "strike": true,
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": " $  ? \t    😀",
+     "styles": {
+      "backgroundColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "hello \t www.x.com \t \\ \n ",
+     "styles": {
+      "bold": true,
+      "italic": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "a:b ' .",
+     "styles": {
+      "italic": true,
+      "code": true,
+      "underline": true
+     }
+    }
+   ]
+  },
+  {
+   "type": "divider",
+   "children": [
+    {
+     "type": "image",
+     "props": {
+      "url": "https://i.x/日本.png"
+     }
+    },
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "a.b",
+       "styles": {}
+      },
+      {
+       "type": "link",
+       "href": "https://e.com",
+       "content": []
+      },
+      {
+       "type": "text",
+       "text": "\\\n= ~  +",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {
+        "italic": true
+       }
+      },
+      {
+       "type": "link",
+       "href": "",
+       "content": [
+        {
+         "type": "text",
+         "text": "",
+         "styles": {
+          "strike": true,
+          "underline": true
+         }
+        },
+        {
+         "type": "text",
+         "text": " x1 🎉\t+",
+         "styles": {
+          "backgroundColor": "red"
+         }
+        },
+        {
+         "type": "text",
+         "text": "日本語 ' ~ ",
+         "styles": {
+          "code": true,
+          "textColor": "red"
+         }
+        }
+       ]
+      }
+     ],
+     "children": [
+      {
+       "type": "paragraph",
+       "content": " \n "
+      },
+      {
+       "type": "mermaid",
+       "props": {
+        "code": "graph TD;A-->B"
+       }
+      },
+      {
+       "type": "quote",
+       "content": [
+        {
+         "type": "teamMention",
+         "props": {
+          "id": "1",
+          "name": "a*b_c"
+         }
+        },
+        {
+         "type": "text",
+         "text": "! a ",
+         "styles": {}
+        },
+        {
+         "type": "docReference",
+         "props": {
+          "id": "1",
+          "title": "x [y]"
+         }
+        },
+        {
+         "type": "link",
+         "href": "#f",
+         "content": [
+          {
+           "type": "text",
+           "text": " _",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": "",
+           "styles": {}
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "audio",
+   "props": {
+    "url": "https://i.x/a_(1).png",
+    "name": "a.png",
+    "showPreview": false
+   },
+   "children": [
+    {
+     "type": "heading",
+     "props": {
+      "level": 3
+     },
+     "content": [
+      {
+       "type": "link",
+       "href": "#f",
+       "content": [
+        {
+         "type": "text",
+         "text": "' ^",
+         "styles": {
+          "bold": true,
+          "italic": true,
+          "underline": true
+         }
+        },
+        {
+         "type": "text",
+         "text": " www.x.com a\t- ",
+         "styles": {
+          "bold": true,
+          "strike": true,
+          "code": true,
+          "underline": true
+         }
+        }
+       ]
+      },
+      {
+       "type": "link",
+       "href": "https://e.com/\"q\"",
+       "content": [
+        {
+         "type": "text",
+         "text": "# - \t ?",
+         "styles": {
+          "bold": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "  🎉",
+         "styles": {
+          "strike": true
+         }
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "text": "  s:/ @ 日本語\nñ",
+       "styles": {
+        "bold": true,
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "docReference",
+       "props": {
+        "id": "1",
+        "title": "  sp  ace "
+       }
+      }
+     ],
+     "children": [
+      {
+       "type": "numberedListItem",
+       "props": {
+        "start": 5
+       },
+       "content": [
+        {
+         "type": "text",
+         "text": "<t> \t ",
+         "styles": {
+          "code": true,
+          "textColor": "red"
+         }
+        },
+        {
+         "type": "link",
+         "href": "https://e.com/a_(b)",
+         "content": [
+          {
+           "type": "text",
+           "text": "a*b > ñ",
+           "styles": {
+            "textColor": "red"
+           }
+          },
+          {
+           "type": "text",
+           "text": " \n s:/",
+           "styles": {
+            "bold": true
+           }
+          }
+         ]
+        },
+        {
+         "type": "teamMention",
+         "props": {
+          "id": "1",
+          "name": ""
+         }
+        },
+        {
+         "type": "text",
+         "text": "​\t👍🏽 👍🏽",
+         "styles": {
+          "bold": true
+         }
+        }
+       ]
+      },
+      {
+       "type": "toggleListItem",
+       "content": [
+        {
+         "type": "docReference",
+         "props": {
+          "id": "1",
+          "title": "Ada"
+         }
+        },
+        {
+         "type": "text",
+         "text": "& ' \n me@x.co \n a:b",
+         "styles": {
+          "strike": true
+         }
+        },
+        {
+         "type": "text",
+         "text": " ",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": "\t",
+         "styles": {
+          "bold": true,
+          "italic": true,
+          "code": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "",
+         "styles": {
+          "bold": true
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "é foo_bar\n/",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "bc 🎉 a*b\t> \n ",
+       "styles": {
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "__\té\n😀",
+       "styles": {
+        "backgroundColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "1.  ",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "",
+     "styles": {
+      "strike": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "/  ",
+     "styles": {
+      "textColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "",
+     "styles": {
+      "italic": true,
+      "strike": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "table",
+     "content": {
+      "type": "tableContent",
+      "rows": [
+       {
+        "cells": [
+         [
+          {
+           "type": "text",
+           "text": "**",
+           "styles": {
+            "textColor": "red"
+           }
+          },
+          {
+           "type": "text",
+           "text": "& ** ",
+           "styles": {
+            "strike": true,
+            "underline": true
+           }
+          },
+          {
+           "type": "text",
+           "text": "",
+           "styles": {
+            "backgroundColor": "red"
+           }
+          }
+         ]
+        ]
+       },
+       {
+        "cells": [
+         [
+          {
+           "type": "text",
+           "text": "",
+           "styles": {}
+          }
+         ]
+        ]
+       },
+       {
+        "cells": [
+         [
+          {
+           "type": "text",
+           "text": "",
+           "styles": {}
+          }
+         ],
+         [
+          {
+           "type": "text",
+           "text": "",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": "- \t ",
+           "styles": {
+            "textColor": "red"
+           }
+          }
+         ]
+        ]
+       },
+       {
+        "cells": [
+         [
+          {
+           "type": "text",
+           "text": " # ",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": "😀  1) 日本語",
+           "styles": {
+            "underline": true,
+            "backgroundColor": "red"
+           }
+          },
+          {
+           "type": "text",
+           "text": " ",
+           "styles": {
+            "code": true,
+            "textColor": "red"
+           }
+          }
+         ],
+         [
+          {
+           "type": "text",
+           "text": "#",
+           "styles": {
+            "bold": true,
+            "italic": true,
+            "code": true
+           }
+          },
+          {
+           "type": "text",
+           "text": " ",
+           "styles": {
+            "code": true,
+            "underline": true
+           }
+          },
+          {
+           "type": "text",
+           "text": "'",
+           "styles": {}
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "fuzz_regression_6": [
+  {
+   "type": "checkListItem",
+   "props": {
+    "checked": false
+   },
+   "content": []
+  },
+  {
+   "type": "codeBlock",
+   "props": {
+    "language": "js"
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "x",
+     "styles": {}
+    }
+   ],
+   "children": [
+    {
+     "type": "codeBlock",
+     "props": {
+      "language": "go"
+     },
+     "content": [
+      {
+       "type": "text",
+       "text": "  i\n\tj\n",
+       "styles": {}
+      }
+     ],
+     "children": [
+      {
+       "type": "checkListItem",
+       "props": {
+        "checked": false
+       },
+       "content": [
+        {
+         "type": "link",
+         "href": "https://e.com/x?y=1&z=2",
+         "content": [
+          {
+           "type": "text",
+           "text": "",
+           "styles": {
+            "code": true
+           }
+          }
+         ]
+        },
+        {
+         "type": "link",
+         "href": "mailto:a@b.co",
+         "content": [
+          {
+           "type": "text",
+           "text": "&amp;\t",
+           "styles": {
+            "backgroundColor": "red"
+           }
+          }
+         ]
+        },
+        {
+         "type": "link",
+         "href": "https://e.com/x?y=1&z=2",
+         "content": [
+          {
+           "type": "text",
+           "text": "",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": "{} \n hello ",
+           "styles": {
+            "italic": true,
+            "underline": true,
+            "textColor": "red"
+           }
+          },
+          {
+           "type": "text",
+           "text": "é me@x.co  ![i](u) \n ",
+           "styles": {
+            "strike": true,
+            "underline": true
+           }
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "=",
+         "styles": {
+          "underline": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "^ **\nZed a*b",
+         "styles": {
+          "bold": true,
+          "backgroundColor": "red"
+         }
+        }
+       ]
+      },
+      {
+       "type": "paragraph",
+       "content": [
+        {
+         "type": "text",
+         "text": "@ a*b  >",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": "! \t =  ",
+         "styles": {
+          "backgroundColor": "red"
+         }
+        },
+        {
+         "type": "link",
+         "href": "https://e.com/x?y=1&z=2",
+         "content": [
+          {
+           "type": "text",
+           "text": "#",
+           "styles": {
+            "textColor": "red",
+            "backgroundColor": "red"
+           }
+          },
+          {
+           "type": "text",
+           "text": "a*b {}",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": "",
+           "styles": {
+            "underline": true,
+            "backgroundColor": "red"
+           }
+          }
+         ]
+        },
+        {
+         "type": "link",
+         "href": "https://e.com/\"q\"",
+         "content": []
+        }
+       ]
+      },
+      {
+       "type": "checkListItem",
+       "props": {
+        "checked": false
+       },
+       "content": [
+        {
+         "type": "text",
+         "text": " \n ",
+         "styles": {
+          "strike": true,
+          "underline": true,
+          "backgroundColor": "red"
+         }
+        },
+        {
+         "type": "text",
+         "text": "_ __ \"",
+         "styles": {
+          "bold": true,
+          "code": true
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "numberedListItem",
+     "props": {},
+     "content": [
+      {
+       "type": "text",
+       "text": "! : \n [x]",
+       "styles": {
+        "strike": true,
+        "backgroundColor": "red"
+       }
+      },
+      {
+       "type": "link",
+       "href": "https://e.com/\"q\"",
+       "content": [
+        {
+         "type": "text",
+         "text": "\t",
+         "styles": {
+          "strike": true
+         }
+        }
+       ]
+      },
+      {
+       "type": "link",
+       "href": "http://localhost/日本",
+       "content": []
+      }
+     ]
+    },
+    {
+     "type": "audio",
+     "props": {
+      "url": "https://i.x/日本.png",
+      "name": "a.png",
+      "caption": "a\nb"
+     }
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "props": {
+    "level": 7
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": " ;     ​ **",
+     "styles": {
+      "italic": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "Zed\n🎉 / 1)",
+     "styles": {
+      "code": true,
+      "textColor": "red"
+     }
+    },
+    {
+     "type": "docReference",
+     "props": {
+      "id": "1",
+      "title": "日本"
+     }
+    },
+    {
+     "type": "teamMention",
+     "props": {
+      "id": "1",
+      "name": "a*b_c"
+     }
+    },
+    {
+     "type": "text",
+     "text": "",
+     "styles": {
+      "code": true,
+      "backgroundColor": "red"
+     }
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "props": {
+    "start": 0
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "= ?  ñ ",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "props": {},
+   "content": [
+    {
+     "type": "text",
+     "text": "+ \n  ",
+     "styles": {
+      "italic": true
+     }
+    },
+    {
+     "type": "link",
+     "href": "https://e.com/x?y=1&z=2",
+     "content": [
+      {
+       "type": "text",
+       "text": "` *",
+       "styles": {
+        "italic": true
+       }
+      },
+      {
+       "type": "text",
+       "text": "a*b",
+       "styles": {
+        "strike": true,
+        "code": true,
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "+\t",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "link",
+     "href": "#f",
+     "content": []
+    },
+    {
+     "type": "link",
+     "href": "https://e.com/a b",
+     "content": []
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "",
+     "styles": {
+      "code": true
+     }
+    },
+    {
+     "type": "link",
+     "href": "https://e.com/\"q\"",
+     "content": [
+      {
+       "type": "text",
+       "text": "'",
+       "styles": {
+        "backgroundColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {
+        "textColor": "red",
+        "backgroundColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": " ",
+       "styles": {
+        "backgroundColor": "red"
+       }
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "",
+     "styles": {}
+    },
+    {
+     "type": "link",
+     "href": "mailto:a@b.co",
+     "content": [
+      {
+       "type": "text",
+       "text": "a:b  ",
+       "styles": {
+        "strike": true
+       }
+      },
+      {
+       "type": "text",
+       "text": "' ",
+       "styles": {
+        "bold": true,
+        "textColor": "red"
+       }
+      }
+     ]
+    }
+   ],
+   "children": [
+    {
+     "type": "bulletListItem",
+     "content": [
+      {
+       "type": "text",
+       "text": "\n.",
+       "styles": {
+        "code": true,
+        "underline": true
+       }
+      },
+      {
+       "type": "text",
+       "text": "&amp;\n ",
+       "styles": {
+        "backgroundColor": "red"
+       }
+      },
+      {
+       "type": "docReference",
+       "props": {
+        "id": "1",
+        "title": "a*b_c"
+       }
+      }
+     ],
+     "children": [
+      {
+       "type": "checkListItem",
+       "props": {
+        "checked": true
+       },
+       "content": [
+        {
+         "type": "text",
+         "text": "&\t",
+         "styles": {
+          "italic": true,
+          "underline": true,
+          "textColor": "red"
+         }
+        }
+       ]
+      },
+      {
+       "type": "heading",
+       "props": {
+        "level": 2
+       },
+       "content": [
+        {
+         "type": "link",
+         "href": "https://e.com/a_(b)",
+         "content": [
+          {
+           "type": "text",
+           "text": "/ 😀",
+           "styles": {
+            "strike": true,
+            "backgroundColor": "red"
+           }
+          },
+          {
+           "type": "text",
+           "text": " ",
+           "styles": {
+            "bold": true,
+            "textColor": "red"
+           }
+          }
+         ]
+        },
+        {
+         "type": "text",
+         "text": "\\  日本語 ,",
+         "styles": {
+          "code": true
+         }
+        }
+       ]
+      },
+      {
+       "type": "table",
+       "content": {
+        "type": "tableContent",
+        "rows": [
+         {
+          "cells": [
+           [
+            {
+             "type": "text",
+             "text": "",
+             "styles": {}
+            }
+           ],
+           [
+            {
+             "type": "text",
+             "text": "< $ https://e.com/a_b?c=1&d=2",
+             "styles": {}
+            },
+            {
+             "type": "link",
+             "href": "https://e.com",
+             "content": []
+            }
+           ],
+           [
+            {
+             "type": "text",
+             "text": "",
+             "styles": {
+              "code": true
+             }
+            },
+            {
+             "type": "text",
+             "text": "  + \t 2. /",
+             "styles": {
+              "strike": true,
+              "code": true
+             }
+            },
+            {
+             "type": "text",
+             "text": "~ ** ~ ~",
+             "styles": {
+              "textColor": "red"
+             }
+            }
+           ]
+          ]
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "type": "checkListItem",
+     "props": {
+      "checked": false
+     },
+     "content": [
+      {
+       "type": "docReference",
+       "props": {
+        "id": "1",
+        "title": "a*b_c"
+       }
+      }
+     ],
+     "children": [
+      {
+       "type": "numberedListItem",
+       "props": {
+        "start": 5
+       },
+       "content": [
+        {
+         "type": "text",
+         "text": "< \n ",
+         "styles": {
+          "bold": true,
+          "textColor": "red"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "fuzz_regression_7": [
+  {
+   "type": "video",
+   "props": {
+    "url": "https://i.x/a b.png"
+   },
+   "children": [
+    {
+     "type": "codeBlock",
+     "props": {
+      "language": "go"
+     },
+     "content": [
+      {
+       "type": "text",
+       "text": "  i\n\tj\n",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "text",
+     "text": "' a*b `  s:/ \n ",
+     "styles": {
+      "backgroundColor": "red"
+     }
+    },
+    {
+     "type": "link",
+     "href": "https://e.com/\"q\"",
+     "content": [
+      {
+       "type": "text",
+       "text": "<t> \n 👍🏽 \t >",
+       "styles": {
+        "italic": true,
+        "strike": true
+       }
+      },
+      {
+       "type": "text",
+       "text": "é ! #",
+       "styles": {}
+      }
+     ]
+    },
+    {
+     "type": "link",
+     "href": "http://localhost/日本",
+     "content": [
+      {
+       "type": "text",
+       "text": "? >\t",
+       "styles": {
+        "code": true,
+        "underline": true
+       }
+      }
+     ]
+    },
+    {
+     "type": "docReference",
+     "props": {
+      "id": "1",
+      "title": "Ada"
+     }
+    }
+   ]
+  },
+  {
+   "type": "toggleListItem",
+   "content": "2. me@x.co"
+  },
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       {
+        "type": "tableCell",
+        "props": {
+         "colspan": 2
+        },
+        "content": [
+         {
+          "type": "text",
+          "text": "hello \n  ",
+          "styles": {}
+         },
+         {
+          "type": "text",
+          "text": "*\t! \n @ ",
+          "styles": {}
+         }
+        ]
+       },
+       "x",
+       [],
+       [
+        {
+         "type": "docReference",
+         "props": {
+          "id": "1",
+          "title": "  sp  ace "
+         }
+        },
+        {
+         "type": "text",
+         "text": "bc",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       {
+        "type": "tableCell",
+        "props": {
+         "colspan": 1,
+         "rowspan": 2
+        },
+        "content": []
+       },
+       {
+        "type": "tableCell",
+        "props": {
+         "colspan": 3,
+         "rowspan": 2
+        },
+        "content": [
+         {
+          "type": "text",
+          "text": "www.x.com ",
+          "styles": {
+           "backgroundColor": "red"
+          }
+         },
+         {
+          "type": "text",
+          "text": "a*b",
+          "styles": {}
+         },
+         {
+          "type": "text",
+          "text": "1. ^",
+          "styles": {
+           "bold": true,
+           "strike": true,
+           "textColor": "red"
+          }
+         }
+        ]
+       },
+       ".     "
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": ";",
+         "styles": {
+          "strike": true,
+          "textColor": "red",
+          "backgroundColor": "red"
+         }
+        },
+        {
+         "type": "text",
+         "text": "",
+         "styles": {
+          "code": true,
+          "underline": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "wörd **  \t ",
+         "styles": {
+          "underline": true,
+          "textColor": "red"
+         }
+        }
+       ]
+      ]
+     }
+    ],
+    "headerRows": 2
+   }
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "link",
+     "href": "http://localhost/日本",
+     "content": [
+      {
+       "type": "text",
+       "text": " ' (p)\t2.",
+       "styles": {
+        "bold": true,
+        "textColor": "red"
+       }
+      }
+     ]
+    },
+    {
+     "type": "link",
+     "href": "http://localhost/日本",
+     "content": []
+    },
+    {
+     "type": "text",
+     "text": "foo_bar",
+     "styles": {
+      "textColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": ". **  www.x.com",
+     "styles": {
+      "backgroundColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "+ Zed \n ;",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "heading",
+   "props": {
+    "level": 6
+   },
+   "content": [
+    {
+     "type": "teamMention",
+     "props": {
+      "id": "1",
+      "name": "日本"
+     }
+    },
+    {
+     "type": "link",
+     "href": "",
+     "content": [
+      {
+       "type": "text",
+       "text": "🎉",
+       "styles": {
+        "italic": true,
+        "underline": true,
+        "textColor": "red"
+       }
+      }
+     ]
+    },
+    {
+     "type": "link",
+     "href": "",
+     "content": [
+      {
+       "type": "text",
+       "text": "",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "x1 % ",
+       "styles": {
+        "code": true,
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "https://e.com/a_b?c=1&d=2",
+       "styles": {
+        "strike": true,
+        "underline": true,
+        "backgroundColor": "red"
+       }
+      }
+     ]
+    }
+   ],
+   "children": [
+    {
+     "type": "video",
+     "props": {
+      "name": "a.png"
+     }
+    },
+    {
+     "type": "table",
+     "content": {
+      "type": "tableContent",
+      "rows": [
+       {
+        "cells": [
+         [
+          {
+           "type": "text",
+           "text": "Zed  ![i](u)",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": "bc\tx1 \n * \t 1)",
+           "styles": {
+            "italic": true
+           }
+          }
+         ],
+         "' \t |",
+         [
+          {
+           "type": "text",
+           "text": "",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": "? bc\t`  1. ",
+           "styles": {
+            "italic": true,
+            "code": true,
+            "textColor": "red",
+            "backgroundColor": "red"
+           }
+          },
+          {
+           "type": "text",
+           "text": "| \t `\t+\n[x]",
+           "styles": {
+            "bold": true,
+            "underline": true
+           }
+          }
+         ]
+        ]
+       },
+       {
+        "cells": [
+         [
+          {
+           "type": "text",
+           "text": "\nme@x.co",
+           "styles": {
+            "code": true
+           }
+          },
+          {
+           "type": "text",
+           "text": " < ",
+           "styles": {
+            "italic": true,
+            "strike": true,
+            "underline": true
+           }
+          }
+         ],
+         [
+          {
+           "type": "teamMention",
+           "props": {
+            "id": "1",
+            "name": ""
+           }
+          },
+          {
+           "type": "link",
+           "href": "",
+           "content": [
+            {
+             "type": "text",
+             "text": "\" s:/ <t> ",
+             "styles": {
+              "underline": true
+             }
+            }
+           ]
+          }
+         ],
+         {
+          "type": "tableCell",
+          "props": {
+           "colspan": 1,
+           "rowspan": 2
+          },
+          "content": [
+           {
+            "type": "teamMention",
+            "props": {
+             "id": "1",
+             "name": "<z>"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "cells": [
+         [],
+         [
+          {
+           "type": "text",
+           "text": "- ! \t   ",
+           "styles": {
+            "textColor": "red",
+            "backgroundColor": "red"
+           }
+          }
+         ],
+         [
+          {
+           "type": "link",
+           "href": "https://e.com/a b",
+           "content": [
+            {
+             "type": "text",
+             "text": "😀\tbc",
+             "styles": {}
+            },
+            {
+             "type": "text",
+             "text": "",
+             "styles": {}
+            },
+            {
+             "type": "text",
+             "text": "  a:b >",
+             "styles": {}
+            }
+           ]
+          },
+          {
+           "type": "text",
+           "text": "a*b \t :",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": ": # $ \t ",
+           "styles": {
+            "italic": true,
+            "strike": true,
+            "underline": true
+           }
+          }
+         ],
+         [
+          {
+           "type": "link",
+           "href": "https://e.com",
+           "content": [
+            {
+             "type": "text",
+             "text": " \t foo_bar",
+             "styles": {}
+            },
+            {
+             "type": "text",
+             "text": "bc 😀 é",
+             "styles": {
+              "strike": true,
+              "textColor": "red"
+             }
+            }
+           ]
+          },
+          {
+           "type": "link",
+           "href": "http://localhost/日本",
+           "content": [
+            {
+             "type": "text",
+             "text": "me@x.co \t https://e.com/a_b?c=1&d=2 a*b",
+             "styles": {}
+            },
+            {
+             "type": "text",
+             "text": "",
+             "styles": {
+              "bold": true
+             }
+            },
+            {
+             "type": "text",
+             "text": "Zed",
+             "styles": {}
+            }
+           ]
+          }
+         ]
+        ]
+       },
+       {
+        "cells": [
+         [],
+         [
+          {
+           "type": "link",
+           "href": "https://e.com/\"q\"",
+           "content": [
+            {
+             "type": "text",
+             "text": " ",
+             "styles": {
+              "backgroundColor": "red"
+             }
+            },
+            {
+             "type": "text",
+             "text": "www.x.com  me@x.co",
+             "styles": {
+              "textColor": "red",
+              "backgroundColor": "red"
+             }
+            },
+            {
+             "type": "text",
+             "text": "wörd / \\",
+             "styles": {}
+            }
+           ]
+          },
+          {
+           "type": "text",
+           "text": "​",
+           "styles": {
+            "code": true,
+            "textColor": "red"
+           }
+          }
+         ]
+        ]
+       }
+      ],
+      "headerRows": 2
+     }
+    }
+   ]
+  }
+ ],
+ "nan_encoding_1": [
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "link",
+     "href": "#f",
+     "content": [
+      {
+       "type": "text",
+       "text": ",",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "numberedListItem",
+   "props": {
+    "start": 0
+   },
+   "content": [
+    {
+     "type": "text",
+     "text": "` ",
+     "styles": {
+      "italic": true,
+      "code": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "-",
+     "styles": {
+      "underline": true,
+      "backgroundColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "&amp;",
+     "styles": {}
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "% \n 2. ",
+         "styles": {}
+        },
+        {
+         "type": "link",
+         "href": "https://e.com/a b",
+         "content": [
+          {
+           "type": "text",
+           "text": "\n",
+           "styles": {
+            "italic": true,
+            "strike": true
+           }
+          }
+         ]
+        },
+        {
+         "type": "link",
+         "href": "mailto:a@b.co",
+         "content": [
+          {
+           "type": "text",
+           "text": "\n&amp;",
+           "styles": {
+            "bold": true,
+            "italic": true
+           }
+          }
+         ]
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "1) \t \" a |",
+         "styles": {
+          "strike": true,
+          "code": true,
+          "underline": true
+         }
+        }
+       ]
+      ]
+     }
+    ],
+    "headerRows": 1
+   }
+  }
+ ],
+ "nan_encoding_2": [
+  {
+   "type": "numberedListItem",
+   "props": {
+    "start": 5
+   },
+   "content": "\" "
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": " \t ?\t1.\t/",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "@ |  wörd\t&amp;",
+     "styles": {
+      "strike": true,
+      "code": true,
+      "textColor": "red"
+     }
+    },
+    {
+     "type": "text",
+     "text": "1) \t 1) a ",
+     "styles": {
+      "bold": true,
+      "strike": true,
+      "underline": true
+     }
+    }
+   ],
+   "children": [
+    {
+     "type": "paragraph",
+     "content": [
+      {
+       "type": "text",
+       "text": "日本語 \n % : <t> \n ",
+       "styles": {
+        "underline": true
+       }
+      },
+      {
+       "type": "text",
+       "text": "**\t",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "&amp; hello 2. \t __",
+       "styles": {
+        "italic": true,
+        "backgroundColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": " .\n+ ",
+       "styles": {
+        "bold": true,
+        "strike": true
+       }
+      }
+     ]
+    },
+    {
+     "type": "table",
+     "content": {
+      "type": "tableContent",
+      "rows": [
+       {
+        "cells": [
+         [
+          {
+           "type": "link",
+           "href": "mailto:a@b.co",
+           "content": [
+            {
+             "type": "text",
+             "text": "` foo_bar",
+             "styles": {}
+            },
+            {
+             "type": "text",
+             "text": "​ \n ; é\n",
+             "styles": {
+              "bold": true,
+              "textColor": "red"
+             }
+            }
+           ]
+          },
+          {
+           "type": "text",
+           "text": "= a*b ",
+           "styles": {
+            "strike": true,
+            "underline": true
+           }
+          },
+          {
+           "type": "text",
+           "text": "",
+           "styles": {
+            "underline": true
+           }
+          }
+         ]
+        ]
+       },
+       {
+        "cells": [
+         [
+          {
+           "type": "text",
+           "text": "s:/ < ;\t",
+           "styles": {
+            "italic": true,
+            "code": true,
+            "textColor": "red"
+           }
+          },
+          {
+           "type": "text",
+           "text": " \n Zed ~ > $",
+           "styles": {
+            "textColor": "red"
+           }
+          }
+         ]
+        ]
+       },
+       {
+        "cells": [
+         [
+          {
+           "type": "text",
+           "text": "1. <t> ; ** \n  \n ",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": "<",
+           "styles": {
+            "bold": true
+           }
+          },
+          {
+           "type": "text",
+           "text": " ![i](u) = ",
+           "styles": {}
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "heading",
+     "props": {
+      "level": 4
+     },
+     "content": ""
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "content": {
+    "type": "tableContent",
+    "rows": [
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "(p) \n a:b (p) ",
+         "styles": {}
+        },
+        {
+         "type": "link",
+         "href": "https://e.com",
+         "content": []
+        },
+        {
+         "type": "text",
+         "text": "\t",
+         "styles": {
+          "italic": true,
+          "backgroundColor": "red"
+         }
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "  \" &",
+         "styles": {
+          "bold": true,
+          "backgroundColor": "red"
+         }
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": "🎉  ",
+         "styles": {
+          "strike": true,
+          "underline": true
+         }
+        },
+        {
+         "type": "text",
+         "text": "\n ",
+         "styles": {}
+        }
+       ]
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "[x]",
+         "styles": {
+          "italic": true
+         }
+        },
+        {
+         "type": "link",
+         "href": "https://e.com/x?y=1&z=2",
+         "content": []
+        }
+       ],
+       {
+        "type": "tableCell",
+        "props": {
+         "rowspan": 2
+        },
+        "content": [
+         {
+          "type": "link",
+          "href": "https://e.com/a_(b)",
+          "content": [
+           {
+            "type": "text",
+            "text": "_ , 🎉",
+            "styles": {}
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "type": "tableCell",
+        "props": {
+         "colspan": 2,
+         "rowspan": 1
+        },
+        "content": [
+         {
+          "type": "text",
+          "text": "2. \t (p) Zed ​",
+          "styles": {
+           "underline": true
+          }
+         },
+         {
+          "type": "text",
+          "text": "+ {}",
+          "styles": {
+           "strike": true
+          }
+         },
+         {
+          "type": "text",
+          "text": "",
+          "styles": {
+           "underline": true
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "cells": [
+       [
+        {
+         "type": "text",
+         "text": "% Zed ;",
+         "styles": {
+          "code": true,
+          "textColor": "red"
+         }
+        },
+        {
+         "type": "link",
+         "href": "mailto:a@b.co",
+         "content": []
+        }
+       ],
+       [
+        {
+         "type": "text",
+         "text": "$\t@ @",
+         "styles": {
+          "bold": true,
+          "strike": true,
+          "code": true,
+          "backgroundColor": "red"
+         }
+        },
+        {
+         "type": "text",
+         "text": " Zed ; \t 😀",
+         "styles": {
+          "bold": true,
+          "strike": true,
+          "code": true,
+          "textColor": "red"
+         }
+        }
+       ]
+      ]
+     }
+    ],
+    "headerCols": 1
+   }
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "? \t . a*b \n **",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "link",
+     "href": "https://e.com/a b",
+     "content": [
+      {
+       "type": "text",
+       "text": "www.x.com <t> : \n ",
+       "styles": {
+        "strike": true,
+        "code": true,
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "$",
+       "styles": {
+        "italic": true,
+        "backgroundColor": "red"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "bulletListItem",
+   "content": [
+    {
+     "type": "link",
+     "href": "https://e.com/x?y=1&z=2",
+     "content": [
+      {
+       "type": "text",
+       "text": "[x]",
+       "styles": {
+        "italic": true
+       }
+      },
+      {
+       "type": "text",
+       "text": "?",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "-\n<t>",
+       "styles": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "paragraph",
+   "content": [
+    {
+     "type": "text",
+     "text": "(p)  '",
+     "styles": {}
+    },
+    {
+     "type": "text",
+     "text": "#",
+     "styles": {
+      "strike": true,
+      "underline": true
+     }
+    },
+    {
+     "type": "text",
+     "text": "*\t>\ta.b ",
+     "styles": {
+      "strike": true,
+      "code": true
+     }
+    },
+    {
+     "type": "text",
+     "text": ", ; \t ​ ! \t ",
+     "styles": {
+      "bold": true
+     }
+    },
+    {
+     "type": "link",
+     "href": "",
+     "content": [
+      {
+       "type": "text",
+       "text": "{} \n +",
+       "styles": {
+        "italic": true,
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "  a:b",
+       "styles": {
+        "underline": true,
+        "backgroundColor": "red"
+       }
+      },
+      {
+       "type": "text",
+       "text": "2. \t 😀\n",
+       "styles": {
+        "bold": true,
+        "strike": true,
+        "backgroundColor": "red"
+       }
+      }
+     ]
+    }
+   ],
+   "children": [
+    {
+     "type": "table",
+     "content": {
+      "type": "tableContent",
+      "rows": [
+       {
+        "cells": [
+         [
+          {
+           "type": "text",
+           "text": "#",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": "~\n$ ",
+           "styles": {}
+          }
+         ],
+         [
+          {
+           "type": "text",
+           "text": "% \n (p)",
+           "styles": {}
+          },
+          {
+           "type": "text",
+           "text": "a \"\na\n+",
+           "styles": {
+            "code": true,
+            "backgroundColor": "red"
+           }
+          },
+          {
+           "type": "teamMention",
+           "props": {
+            "id": "1",
+            "name": ""
+           }
+          }
+         ]
+        ]
+       },
+       {
+        "cells": [
+         " bc"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "type": "quote",
+     "content": [
+      {
+       "type": "link",
+       "href": "http://localhost/日本",
+       "content": [
+        {
+         "type": "text",
+         "text": "=\t^",
+         "styles": {
+          "bold": true,
+          "backgroundColor": "red"
+         }
+        },
+        {
+         "type": "text",
+         "text": "+ 👍🏽 :",
+         "styles": {
+          "italic": true,
+          "textColor": "red"
+         }
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "text": "日本語  -  \\ ",
+       "styles": {
+        "underline": true,
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "taskReference",
+       "props": {
+        "id": "1",
+        "title": "日本"
+       }
+      },
+      {
+       "type": "text",
+       "text": "% \n ` ",
+       "styles": {
+        "strike": true,
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "link",
+       "href": "mailto:a@b.co",
+       "content": [
+        {
+         "type": "text",
+         "text": "Zed !\na.b ",
+         "styles": {
+          "backgroundColor": "red"
+         }
+        },
+        {
+         "type": "text",
+         "text": "",
+         "styles": {}
+        },
+        {
+         "type": "text",
+         "text": "  @ \n . ",
+         "styles": {
+          "code": true
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "numberedListItem",
+     "props": {},
+     "content": [
+      {
+       "type": "text",
+       "text": "\n$ \t ",
+       "styles": {}
+      },
+      {
+       "type": "text",
+       "text": "_\na*b ",
+       "styles": {
+        "bold": true,
+        "italic": true,
+        "code": true,
+        "textColor": "red"
+       }
+      },
+      {
+       "type": "teamMention",
+       "props": {
+        "id": "1",
+        "name": "a*b_c"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

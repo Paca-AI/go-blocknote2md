@@ -1,0 +1,28 @@
+{
+  "name": "go-blocknote2md-golden",
+  "private": true,
+  "type": "module",
+  "description": "Runs the shared fixtures through the real BlockNote and checks them against testdata/blocknote_golden.json.",
+  "scripts": {
+    "golden": "vitest run",
+    "golden:update": "vitest run -u"
+  },
+  "dependencies": {
+    "@blocknote/core": "0.48.1",
+    "@blocknote/react": "0.48.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.0",
+    "jsdom": "^29.0.2",
+    "typescript": "~5.9.3",
+    "vitest": "^4.1.4"
+  },
+  "overrides": {
+    "mdast-util-to-markdown": "2.1.2",
+    "mdast-util-gfm-strikethrough": "2.0.0",
+    "parse5": "8.0.0"
+  }
+}
