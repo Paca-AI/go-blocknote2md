@@ -35,8 +35,12 @@ describe("BlockNote markdown golden output", () => {
 		for (const name of Object.keys(fixtures).sort()) {
 			actual[name] = await render(fixtures[name]);
 		}
-		await expect(`${JSON.stringify(actual, null, 1)}\n`).toMatchFileSnapshot(
-			goldenPath,
-		);
+		// U+2028, U+2029 and U+FEFF are valid raw in JSON but editors and tools
+		// strip or normalise them, so write them as escapes.
+		const json = JSON.stringify(actual, null, 1)
+			.replaceAll("\u2028", "\\u2028")
+			.replaceAll("\u2029", "\\u2029")
+			.replaceAll("\uFEFF", "\\uFEFF");
+		await expect(`${json}\n`).toMatchFileSnapshot(goldenPath);
 	});
 });

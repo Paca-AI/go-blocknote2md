@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"os"
 	"sort"
+	"strings"
 	"testing"
 )
 
@@ -65,5 +66,28 @@ func readJSON(t *testing.T, path string, v any) {
 	}
 	if err := json.Unmarshal(b, v); err != nil {
 		t.Fatalf("%s: %v", path, err)
+	}
+}
+
+// TestFixturesAreASCII keeps the fixtures robust: invisible characters such as
+// U+2028 and U+2029 must be escape sequences in the JSON, because editors and tools
+// strip or normalise them when they are written raw (which once silently turned
+// the line_sep fixture into plain "abc").
+func TestFixturesAreASCII(t *testing.T) {
+	for _, path := range []string{"testdata/blocknote_fixtures.json", "testdata/blocknote_golden.json"} {
+		b, err := os.ReadFile(path)
+		if err != nil {
+			t.Fatal(err)
+		}
+		for i, c := range b {
+			if c >= 0x80 && path == "testdata/blocknote_fixtures.json" {
+				t.Fatalf("%s has a raw non-ASCII byte at offset %d; write it as an escape sequence", path, i)
+			}
+		}
+		for _, r := range []rune{0x2028, 0x2029, 0xFEFF} {
+			if strings.ContainsRune(string(b), r) {
+				t.Errorf("%s contains a raw %U; write it as an escape sequence", path, r)
+			}
+		}
 	}
 }
