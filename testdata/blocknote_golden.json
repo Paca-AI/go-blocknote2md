@@ -149,7 +149,7 @@
  "leading_gt": "> not a quote\n",
  "leading_hash": "# not a heading\n",
  "leading_number": "1. not a list\n",
- "line_sep": "a b c\n",
+ "line_sep": "a\u2028b\u2029c\n",
  "link_autolink_text": "<https://e.com>\n",
  "link_empty_href": "[nohref]()\n",
  "link_empty_text": "",
@@ -303,5 +303,5 @@
  "video_preview_width": "![](https://v/a.mp4)\n",
  "whitespace_edges": "padded\n",
  "whitespace_runs": "a b c\n",
- "zero_width": "a​b﻿c\n"
+ "zero_width": "a​b\uFEFFc\n"
 }

@@ -548,7 +548,7 @@
    "content": [
     {
      "type": "text",
-     "text": "héllo 日本語 🎉",
+     "text": "h\u00e9llo \u65e5\u672c\u8a9e \ud83c\udf89",
      "styles": {}
     }
    ]
@@ -2898,7 +2898,7 @@
    "content": [
     {
      "type": "link",
-     "href": "https://e.com/日本",
+     "href": "https://e.com/\u65e5\u672c",
      "content": [
       {
        "type": "text",
@@ -2962,7 +2962,7 @@
    "content": [
     {
      "type": "text",
-     "text": "a b  c",
+     "text": "a\u00a0b\u00a0\u00a0c",
      "styles": {}
     }
    ]
@@ -2974,7 +2974,7 @@
    "content": [
     {
      "type": "text",
-     "text": " lead and trail ",
+     "text": "\u00a0lead and trail\u00a0",
      "styles": {}
     }
    ]
@@ -3022,7 +3022,7 @@
    "content": [
     {
      "type": "text",
-     "text": "abc",
+     "text": "a\u2028b\u2029c",
      "styles": {}
     }
    ]
@@ -3034,7 +3034,7 @@
    "content": [
     {
      "type": "text",
-     "text": "a​b﻿c",
+     "text": "a\u200bb\ufeffc",
      "styles": {}
     }
    ]
@@ -3274,7 +3274,7 @@
    "content": [
     {
      "type": "text",
-     "text": "🎉",
+     "text": "\ud83c\udf89",
      "styles": {}
     },
     {
@@ -3286,7 +3286,7 @@
     },
     {
      "type": "text",
-     "text": "🎉",
+     "text": "\ud83c\udf89",
      "styles": {}
     }
    ]
@@ -3981,8 +3981,8 @@
   {
    "type": "image",
    "props": {
-    "url": "https://img/日本.png",
-    "name": "日本"
+    "url": "https://img/\u65e5\u672c.png",
+    "name": "\u65e5\u672c"
    }
   }
  ],
@@ -4221,7 +4221,7 @@
        [
         {
          "type": "text",
-         "text": "日本語",
+         "text": "\u65e5\u672c\u8a9e",
          "styles": {}
         }
        ],
@@ -4246,7 +4246,7 @@
        [
         {
          "type": "text",
-         "text": "🎉🎉",
+         "text": "\ud83c\udf89\ud83c\udf89",
          "styles": {}
         }
        ]
@@ -5655,7 +5655,7 @@
    "content": [
     {
      "type": "text",
-     "text": "🎉🎉 party 👍🏽",
+     "text": "\ud83c\udf89\ud83c\udf89 party \ud83d\udc4d\ud83c\udffd",
      "styles": {}
     }
    ]
@@ -5667,7 +5667,7 @@
    "content": [
     {
      "type": "text",
-     "text": "שלום עולם",
+     "text": "\u05e9\u05dc\u05d5\u05dd \u05e2\u05d5\u05dc\u05dd",
      "styles": {}
     }
    ]
@@ -5679,7 +5679,7 @@
    "content": [
     {
      "type": "text",
-     "text": "é à",
+     "text": "e\u0301 a\u0300",
      "styles": {}
     }
    ]
@@ -6406,7 +6406,7 @@
        "content": [
         {
          "type": "text",
-         "text": "😀 1.\t!\t",
+         "text": "\ud83d\ude00 1.\t!\t",
          "styles": {}
         },
         {
@@ -6423,7 +6423,7 @@
          "content": [
           {
            "type": "text",
-           "text": "é\n< '",
+           "text": "\u00e9\n< '",
            "styles": {
             "bold": true
            }
@@ -6463,7 +6463,7 @@
      "content": [
       {
        "type": "text",
-       "text": "& | 1) ![i](u) ",
+       "text": "& | 1)\u00a0![i](u)\u00a0",
        "styles": {}
       },
       {
@@ -6514,7 +6514,7 @@
          "content": [
           {
            "type": "text",
-           "text": "\né \n a",
+           "text": "\n\u00e9 \n a",
            "styles": {
             "strike": true
            }
@@ -6559,7 +6559,7 @@
            [
             {
              "type": "text",
-             "text": "  \t % ",
+             "text": "\u00a0 \t % ",
              "styles": {
               "bold": true
              }
@@ -6595,7 +6595,7 @@
             },
             {
              "type": "text",
-             "text": "' ?  _  ñ",
+             "text": "' ?  _  \u00f1",
              "styles": {}
             }
            ],
@@ -6628,7 +6628,7 @@
              "content": [
               {
                "type": "text",
-               "text": "_ é bc",
+               "text": "_\u00a0\u00e9 bc",
                "styles": {
                 "textColor": "red"
                }
@@ -6637,14 +6637,14 @@
             },
             {
              "type": "text",
-             "text": "<  & $ \t 😀",
+             "text": "<  & $ \t \ud83d\ude00",
              "styles": {}
             }
            ],
            [
             {
              "type": "text",
-             "text": "a.b  \t",
+             "text": "a.b \u00a0\t",
              "styles": {
               "italic": true,
               "strike": true
@@ -6703,7 +6703,7 @@
         },
         {
          "type": "text",
-         "text": "1. (p) \n {} \n \"",
+         "text": "1.\u00a0(p) \n {} \n \"",
          "styles": {}
         }
        ]
@@ -6752,7 +6752,7 @@
     },
     {
      "type": "text",
-     "text": "ñ",
+     "text": "\u00f1",
      "styles": {
       "italic": true,
       "backgroundColor": "red"
@@ -6760,7 +6760,7 @@
     },
     {
      "type": "text",
-     "text": "+ $\n_ hello ",
+     "text": "+\u00a0$\n_ hello ",
      "styles": {}
     }
    ]
@@ -6785,33 +6785,33 @@
      "type": "teamMention",
      "props": {
       "id": "1",
-      "name": "日本"
+      "name": "\u65e5\u672c"
      }
     },
     {
      "type": "text",
-     "text": "a.b > s:/ ñ",
+     "text": "a.b > s:/ \u00f1",
      "styles": {
       "backgroundColor": "red"
      }
     },
     {
      "type": "text",
-     "text": "\tx1\t* www.x.com 😀 ",
+     "text": "\tx1\t* www.x.com \ud83d\ude00 ",
      "styles": {
       "backgroundColor": "red"
      }
     },
     {
      "type": "text",
-     "text": "foo_bar ! % ^\t",
+     "text": "foo_bar !\u00a0% ^\t",
      "styles": {
       "backgroundColor": "red"
      }
     },
     {
      "type": "text",
-     "text": "Zed ñ",
+     "text": "Zed \u00f1",
      "styles": {
       "code": true
      }
@@ -6839,12 +6839,12 @@
         },
         {
          "type": "text",
-         "text": "&amp; #   ",
+         "text": "&amp; # \u00a0 ",
          "styles": {}
         },
         {
          "type": "text",
-         "text": "^  \n&",
+         "text": "^ \u00a0\n&",
          "styles": {
           "strike": true
          }
@@ -6864,7 +6864,7 @@
        "content": [
         {
          "type": "text",
-         "text": "+ /",
+         "text": "+\u00a0/",
          "styles": {}
         },
         {
@@ -6883,7 +6883,7 @@
        "content": [
         {
          "type": "text",
-         "text": "😀 me@x.co",
+         "text": "\ud83d\ude00\u00a0me@x.co",
          "styles": {
           "bold": true,
           "italic": true,
@@ -6892,7 +6892,7 @@
         },
         {
          "type": "text",
-         "text": "🎉 / \t 😀",
+         "text": "\ud83c\udf89\u00a0/ \t \ud83d\ude00",
          "styles": {
           "textColor": "red"
          }
@@ -6932,7 +6932,7 @@
         },
         {
          "type": "text",
-         "text": "| é",
+         "text": "| \u00e9",
          "styles": {}
         },
         {
@@ -6944,7 +6944,7 @@
         },
         {
          "type": "text",
-         "text": "é 😀  x1\t​\n",
+         "text": "\u00e9 \ud83d\ude00  x1\t\u200b\n",
          "styles": {
           "underline": true
          }
@@ -6962,7 +6962,7 @@
        "content": [
         {
          "type": "text",
-         "text": "(p) \n ñ",
+         "text": "(p) \n \u00f1",
          "styles": {
           "bold": true,
           "underline": true
@@ -6972,12 +6972,12 @@
          "type": "docReference",
          "props": {
           "id": "1",
-          "title": "日本"
+          "title": "\u65e5\u672c"
          }
         },
         {
          "type": "text",
-         "text": "ñ me@x.co ",
+         "text": "\u00f1 me@x.co ",
          "styles": {
           "code": true
          }
@@ -7004,7 +7004,7 @@
           },
           {
            "type": "text",
-           "text": "\t* 日本語",
+           "text": "\t* \u65e5\u672c\u8a9e",
            "styles": {
             "textColor": "red"
            }
@@ -7043,7 +7043,7 @@
      "content": [
       {
        "type": "text",
-       "text": ":  +  ",
+       "text": ":  +\u00a0\u00a0",
        "styles": {}
       }
      ]
@@ -7170,7 +7170,7 @@
      "content": [
       {
        "type": "text",
-       "text": "a 🎉 ",
+       "text": "a \ud83c\udf89 ",
        "styles": {
         "bold": true,
         "strike": true,
@@ -7179,7 +7179,7 @@
       },
       {
        "type": "text",
-       "text": ", \n Zed\n​",
+       "text": ", \n Zed\n\u200b",
        "styles": {
         "code": true
        }
@@ -7349,14 +7349,14 @@
             },
             {
              "type": "text",
-             "text": "foo_bar 👍🏽 \t %",
+             "text": "foo_bar \ud83d\udc4d\ud83c\udffd \t %",
              "styles": {
               "italic": true
              }
             },
             {
              "type": "text",
-             "text": " \tx1 ,  x1",
+             "text": "\u00a0\tx1 ,  x1",
              "styles": {
               "strike": true
              }
@@ -7379,7 +7379,7 @@
      "content": [
       {
        "type": "text",
-       "text": "wörd\na*b bc &amp; ",
+       "text": "w\u00f6rd\na*b bc &amp;\u00a0",
        "styles": {}
       },
       {
@@ -7442,7 +7442,7 @@
    "type": "image",
    "props": {
     "url": "https://i.x/a b.png",
-    "name": "日本",
+    "name": "\u65e5\u672c",
     "caption": "cap",
     "showPreview": false
    },
@@ -7526,7 +7526,7 @@
         },
         {
          "type": "text",
-         "text": "wörd hello & @ ",
+         "text": "w\u00f6rd hello & @ ",
          "styles": {
           "italic": true,
           "textColor": "red"
@@ -7580,7 +7580,7 @@
     },
     {
      "type": "text",
-     "text": "😀 ' ",
+     "text": "\ud83d\ude00\u00a0' ",
      "styles": {}
     },
     {
@@ -7595,7 +7595,7 @@
      "content": [
       {
        "type": "text",
-       "text": "& **",
+       "text": "&\u00a0**",
        "styles": {
         "bold": true,
         "textColor": "red",
@@ -7626,7 +7626,7 @@
        "content": [
         {
          "type": "text",
-         "text": "a*b\t\\ \n é  \n ",
+         "text": "a*b\t\\ \n \u00e9  \n ",
          "styles": {
           "bold": true,
           "italic": true,
@@ -7649,7 +7649,7 @@
        "content": [
         {
          "type": "text",
-         "text": "' ! \n ​ a*b",
+         "text": "'\u00a0! \n \u200b a*b",
          "styles": {}
         }
        ]
@@ -7671,7 +7671,7 @@
       },
       {
        "type": "text",
-       "text": "@ www.x.com __",
+       "text": "@ www.x.com\u00a0__",
        "styles": {
         "bold": true,
         "strike": true,
@@ -7683,7 +7683,7 @@
       {
        "type": "file",
        "props": {
-        "url": "https://i.x/日本.png"
+        "url": "https://i.x/\u65e5\u672c.png"
        }
       }
      ]
@@ -7712,7 +7712,7 @@
       },
       {
        "type": "text",
-       "text": "👍🏽  : a*b",
+       "text": "\ud83d\udc4d\ud83c\udffd  : a*b",
        "styles": {
         "bold": true,
         "code": true,
@@ -7748,7 +7748,7 @@
     },
     {
      "type": "text",
-     "text": "+ + ñ",
+     "text": "+ + \u00f1",
      "styles": {}
     }
    ]
@@ -7772,7 +7772,7 @@
      "content": [
       {
        "type": "text",
-       "text": "  ",
+       "text": "\u00a0 ",
        "styles": {}
       }
      ]
@@ -7812,7 +7812,7 @@
      "content": [
       {
        "type": "text",
-       "text": "  \" + \n 😀",
+       "text": "  \" + \n \ud83d\ude00",
        "styles": {
         "code": true
        }
@@ -7862,7 +7862,7 @@
     },
     {
      "type": "text",
-     "text": " $  ? \t    😀",
+     "text": " $  ? \t \u00a0  \ud83d\ude00",
      "styles": {
       "backgroundColor": "red"
      }
@@ -7892,7 +7892,7 @@
     {
      "type": "image",
      "props": {
-      "url": "https://i.x/日本.png"
+      "url": "https://i.x/\u65e5\u672c.png"
      }
     },
     {
@@ -7934,14 +7934,14 @@
         },
         {
          "type": "text",
-         "text": " x1 🎉\t+",
+         "text": " x1\u00a0\ud83c\udf89\t+",
          "styles": {
           "backgroundColor": "red"
          }
         },
         {
          "type": "text",
-         "text": "日本語 ' ~ ",
+         "text": "\u65e5\u672c\u8a9e ' ~ ",
          "styles": {
           "code": true,
           "textColor": "red"
@@ -8050,14 +8050,14 @@
        "content": [
         {
          "type": "text",
-         "text": "# - \t ?",
+         "text": "#\u00a0- \t ?",
          "styles": {
           "bold": true
          }
         },
         {
          "type": "text",
-         "text": "  🎉",
+         "text": "  \ud83c\udf89",
          "styles": {
           "strike": true
          }
@@ -8066,7 +8066,7 @@
       },
       {
        "type": "text",
-       "text": "  s:/ @ 日本語\nñ",
+       "text": "  s:/ @ \u65e5\u672c\u8a9e\n\u00f1",
        "styles": {
         "bold": true,
         "textColor": "red"
@@ -8101,7 +8101,7 @@
          "content": [
           {
            "type": "text",
-           "text": "a*b > ñ",
+           "text": "a*b\u00a0> \u00f1",
            "styles": {
             "textColor": "red"
            }
@@ -8124,7 +8124,7 @@
         },
         {
          "type": "text",
-         "text": "​\t👍🏽 👍🏽",
+         "text": "\u200b\t\ud83d\udc4d\ud83c\udffd \ud83d\udc4d\ud83c\udffd",
          "styles": {
           "bold": true
          }
@@ -8178,19 +8178,19 @@
      "content": [
       {
        "type": "text",
-       "text": "é foo_bar\n/",
+       "text": "\u00e9\u00a0foo_bar\n/",
        "styles": {}
       },
       {
        "type": "text",
-       "text": "bc 🎉 a*b\t> \n ",
+       "text": "bc \ud83c\udf89 a*b\t> \n ",
        "styles": {
         "textColor": "red"
        }
       },
       {
        "type": "text",
-       "text": "__\té\n😀",
+       "text": "__\t\u00e9\n\ud83d\ude00",
        "styles": {
         "backgroundColor": "red"
        }
@@ -8320,7 +8320,7 @@
           },
           {
            "type": "text",
-           "text": "😀  1) 日本語",
+           "text": "\ud83d\ude00  1) \u65e5\u672c\u8a9e",
            "styles": {
             "underline": true,
             "backgroundColor": "red"
@@ -8347,7 +8347,7 @@
           },
           {
            "type": "text",
-           "text": " ",
+           "text": "\u00a0",
            "styles": {
             "code": true,
             "underline": true
@@ -8453,7 +8453,7 @@
           },
           {
            "type": "text",
-           "text": "é me@x.co  ![i](u) \n ",
+           "text": "\u00e9 me@x.co  ![i](u) \n ",
            "styles": {
             "strike": true,
             "underline": true
@@ -8581,7 +8581,7 @@
       },
       {
        "type": "link",
-       "href": "http://localhost/日本",
+       "href": "http://localhost/\u65e5\u672c",
        "content": []
       }
      ]
@@ -8589,7 +8589,7 @@
     {
      "type": "audio",
      "props": {
-      "url": "https://i.x/日本.png",
+      "url": "https://i.x/\u65e5\u672c.png",
       "name": "a.png",
       "caption": "a\nb"
      }
@@ -8604,14 +8604,14 @@
    "content": [
     {
      "type": "text",
-     "text": " ;     ​ **",
+     "text": " ;  \u00a0  \u200b **",
      "styles": {
       "italic": true
      }
     },
     {
      "type": "text",
-     "text": "Zed\n🎉 / 1)",
+     "text": "Zed\n\ud83c\udf89 / 1)",
      "styles": {
       "code": true,
       "textColor": "red"
@@ -8621,7 +8621,7 @@
      "type": "docReference",
      "props": {
       "id": "1",
-      "title": "日本"
+      "title": "\u65e5\u672c"
      }
     },
     {
@@ -8649,7 +8649,7 @@
    "content": [
     {
      "type": "text",
-     "text": "= ?  ñ ",
+     "text": "= ?  \u00f1 ",
      "styles": {}
     }
    ]
@@ -8660,7 +8660,7 @@
    "content": [
     {
      "type": "text",
-     "text": "+ \n  ",
+     "text": "+ \n \u00a0",
      "styles": {
       "italic": true
      }
@@ -8826,7 +8826,7 @@
          "content": [
           {
            "type": "text",
-           "text": "/ 😀",
+           "text": "/\u00a0\ud83d\ude00",
            "styles": {
             "strike": true,
             "backgroundColor": "red"
@@ -8844,7 +8844,7 @@
         },
         {
          "type": "text",
-         "text": "\\  日本語 ,",
+         "text": "\\  \u65e5\u672c\u8a9e ,",
          "styles": {
           "code": true
          }
@@ -8868,7 +8868,7 @@
            [
             {
              "type": "text",
-             "text": "< $ https://e.com/a_b?c=1&d=2",
+             "text": "<\u00a0$ https://e.com/a_b?c=1&d=2",
              "styles": {}
             },
             {
@@ -8887,7 +8887,7 @@
             },
             {
              "type": "text",
-             "text": "  + \t 2. /",
+             "text": "\u00a0 + \t 2. /",
              "styles": {
               "strike": true,
               "code": true
@@ -8982,7 +8982,7 @@
      "content": [
       {
        "type": "text",
-       "text": "<t> \n 👍🏽 \t >",
+       "text": "<t> \n \ud83d\udc4d\ud83c\udffd \t >",
        "styles": {
         "italic": true,
         "strike": true
@@ -8990,18 +8990,18 @@
       },
       {
        "type": "text",
-       "text": "é ! #",
+       "text": "\u00e9 ! #",
        "styles": {}
       }
      ]
     },
     {
      "type": "link",
-     "href": "http://localhost/日本",
+     "href": "http://localhost/\u65e5\u672c",
      "content": [
       {
        "type": "text",
-       "text": "? >\t",
+       "text": "?\u00a0>\t",
        "styles": {
         "code": true,
         "underline": true
@@ -9020,7 +9020,7 @@
   },
   {
    "type": "toggleListItem",
-   "content": "2. me@x.co"
+   "content": "2.\u00a0me@x.co"
   },
   {
    "type": "table",
@@ -9105,7 +9105,7 @@
          }
         ]
        },
-       ".     "
+       ". \u00a0   "
       ]
      },
      {
@@ -9130,7 +9130,7 @@
         },
         {
          "type": "text",
-         "text": "wörd **  \t ",
+         "text": "w\u00f6rd **  \t ",
          "styles": {
           "underline": true,
           "textColor": "red"
@@ -9148,7 +9148,7 @@
    "content": [
     {
      "type": "link",
-     "href": "http://localhost/日本",
+     "href": "http://localhost/\u65e5\u672c",
      "content": [
       {
        "type": "text",
@@ -9162,7 +9162,7 @@
     },
     {
      "type": "link",
-     "href": "http://localhost/日本",
+     "href": "http://localhost/\u65e5\u672c",
      "content": []
     },
     {
@@ -9196,7 +9196,7 @@
      "type": "teamMention",
      "props": {
       "id": "1",
-      "name": "日本"
+      "name": "\u65e5\u672c"
      }
     },
     {
@@ -9205,7 +9205,7 @@
      "content": [
       {
        "type": "text",
-       "text": "🎉",
+       "text": "\ud83c\udf89",
        "styles": {
         "italic": true,
         "underline": true,
@@ -9311,7 +9311,7 @@
           },
           {
            "type": "text",
-           "text": " < ",
+           "text": "\u00a0< ",
            "styles": {
             "italic": true,
             "strike": true,
@@ -9365,7 +9365,7 @@
          [
           {
            "type": "text",
-           "text": "- ! \t   ",
+           "text": "- ! \t \u00a0 ",
            "styles": {
             "textColor": "red",
             "backgroundColor": "red"
@@ -9379,7 +9379,7 @@
            "content": [
             {
              "type": "text",
-             "text": "😀\tbc",
+             "text": "\ud83d\ude00\tbc",
              "styles": {}
             },
             {
@@ -9421,7 +9421,7 @@
             },
             {
              "type": "text",
-             "text": "bc 😀 é",
+             "text": "bc \ud83d\ude00 \u00e9",
              "styles": {
               "strike": true,
               "textColor": "red"
@@ -9431,7 +9431,7 @@
           },
           {
            "type": "link",
-           "href": "http://localhost/日本",
+           "href": "http://localhost/\u65e5\u672c",
            "content": [
             {
              "type": "text",
@@ -9480,14 +9480,14 @@
             },
             {
              "type": "text",
-             "text": "wörd / \\",
+             "text": "w\u00f6rd / \\",
              "styles": {}
             }
            ]
           },
           {
            "type": "text",
-           "text": "​",
+           "text": "\u200b",
            "styles": {
             "code": true,
             "textColor": "red"
@@ -9603,7 +9603,7 @@
        [
         {
          "type": "text",
-         "text": "1) \t \" a |",
+         "text": "1) \t \" a\u00a0|",
          "styles": {
           "strike": true,
           "code": true,
@@ -9624,7 +9624,7 @@
    "props": {
     "start": 5
    },
-   "content": "\" "
+   "content": "\"\u00a0"
   },
   {
    "type": "paragraph",
@@ -9636,7 +9636,7 @@
     },
     {
      "type": "text",
-     "text": "@ |  wörd\t&amp;",
+     "text": "@\u00a0|  w\u00f6rd\t&amp;",
      "styles": {
       "strike": true,
       "code": true,
@@ -9659,7 +9659,7 @@
      "content": [
       {
        "type": "text",
-       "text": "日本語 \n % : <t> \n ",
+       "text": "\u65e5\u672c\u8a9e \n % : <t> \n ",
        "styles": {
         "underline": true
        }
@@ -9711,7 +9711,7 @@
             },
             {
              "type": "text",
-             "text": "​ \n ; é\n",
+             "text": "\u200b \n ;\u00a0\u00e9\n",
              "styles": {
               "bold": true,
               "textColor": "red"
@@ -9721,7 +9721,7 @@
           },
           {
            "type": "text",
-           "text": "= a*b ",
+           "text": "= a*b\u00a0",
            "styles": {
             "strike": true,
             "underline": true
@@ -9742,7 +9742,7 @@
          [
           {
            "type": "text",
-           "text": "s:/ < ;\t",
+           "text": "s:/ <\u00a0;\t",
            "styles": {
             "italic": true,
             "code": true,
@@ -9764,7 +9764,7 @@
          [
           {
            "type": "text",
-           "text": "1. <t> ; ** \n  \n ",
+           "text": "1. <t> ;\u00a0** \n  \n ",
            "styles": {}
           },
           {
@@ -9839,7 +9839,7 @@
         },
         {
          "type": "text",
-         "text": "🎉  ",
+         "text": "\ud83c\udf89  ",
          "styles": {
           "strike": true,
           "underline": true
@@ -9881,7 +9881,7 @@
           "content": [
            {
             "type": "text",
-            "text": "_ , 🎉",
+            "text": "_ , \ud83c\udf89",
             "styles": {}
            }
           ]
@@ -9897,7 +9897,7 @@
         "content": [
          {
           "type": "text",
-          "text": "2. \t (p) Zed ​",
+          "text": "2. \t (p)\u00a0Zed \u200b",
           "styles": {
            "underline": true
           }
@@ -9950,7 +9950,7 @@
         },
         {
          "type": "text",
-         "text": " Zed ; \t 😀",
+         "text": " Zed\u00a0; \t \ud83d\ude00",
          "styles": {
           "bold": true,
           "strike": true,
@@ -10054,7 +10054,7 @@
     },
     {
      "type": "text",
-     "text": ", ; \t ​ ! \t ",
+     "text": ", ; \t \u200b ! \t ",
      "styles": {
       "bold": true
      }
@@ -10081,7 +10081,7 @@
       },
       {
        "type": "text",
-       "text": "2. \t 😀\n",
+       "text": "2. \t \ud83d\ude00\n",
        "styles": {
         "bold": true,
         "strike": true,
@@ -10148,7 +10148,7 @@
      "content": [
       {
        "type": "link",
-       "href": "http://localhost/日本",
+       "href": "http://localhost/\u65e5\u672c",
        "content": [
         {
          "type": "text",
@@ -10160,7 +10160,7 @@
         },
         {
          "type": "text",
-         "text": "+ 👍🏽 :",
+         "text": "+\u00a0\ud83d\udc4d\ud83c\udffd :",
          "styles": {
           "italic": true,
           "textColor": "red"
@@ -10170,7 +10170,7 @@
       },
       {
        "type": "text",
-       "text": "日本語  -  \\ ",
+       "text": "\u65e5\u672c\u8a9e  -  \\ ",
        "styles": {
         "underline": true,
         "textColor": "red"
@@ -10180,7 +10180,7 @@
        "type": "taskReference",
        "props": {
         "id": "1",
-        "title": "日本"
+        "title": "\u65e5\u672c"
        }
       },
       {
@@ -10197,7 +10197,7 @@
        "content": [
         {
          "type": "text",
-         "text": "Zed !\na.b ",
+         "text": "Zed !\na.b\u00a0",
          "styles": {
           "backgroundColor": "red"
          }
